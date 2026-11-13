@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>أركان الإسلام | AnubisLand</title>
+  <meta name="description" content="موسوعة أركان الإسلام الخمسة على منهاج أهل السنة والجماعة باللغتين العربية والإنجليزية، مع الأدلة من الكتاب والسنة واختبار تفاعلي." />
+  <meta name="theme-color" content="#064e3b" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="أركان الإسلام" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&family=Readex+Pro:wght@400;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top-header">
+    <div class="container header-inner">
+      <div class="brand-box">
+        <div class="brand-badge-fallback" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="48" width="48" height="6" rx="2" fill="#fbbf24"/>
+            <rect x="11" y="24" width="6" height="24" rx="2" fill="#fef3c7"/>
+            <rect x="20" y="20" width="6" height="28" rx="2" fill="#fef3c7"/>
+            <rect x="29" y="14" width="6" height="34" rx="2" fill="#fbbf24"/>
+            <rect x="38" y="20" width="6" height="28" rx="2" fill="#fef3c7"/>
+            <rect x="47" y="24" width="6" height="24" rx="2" fill="#fef3c7"/>
+            <path d="M32 4L36 10H28L32 4Z" fill="#fbbf24"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1 data-i18n="appTitle">موسوعة أركان الإسلام</h1>
+          <span data-i18n="brandSub">على منهاج أهل السنة والجماعة • Anubisland</span>
+        </div>
+      </div>
+
+      <nav class="nav-pills" aria-label="Main Navigation">
+        <button type="button" class="nav-pill active" data-view="home" data-i18n="navHome">الرئيسية والأركان</button>
+        <button type="button" class="nav-pill" data-view="study" data-i18n="navStudy">الدراسة التفصيلية</button>
+        <button type="button" class="nav-pill" data-view="proofs" data-i18n="navProofs">الأدلة من الكتاب والسنة</button>
+        <button type="button" class="nav-pill" data-view="quiz" data-i18n="navQuiz">الاختبار التفاعلي</button>
+        <button type="button" class="nav-pill" data-view="practice" data-i18n="navPractice">التطبيق والتنبيهات</button>
+      </nav>
+
+      <div class="header-actions">
+        <button id="btnInstallPWA" class="btn-primary hidden" type="button">
+          <span>📲</span> <span data-i18n="installBtn">تثبيت التطبيق</span>
+        </button>
+        <select id="fontSelect" class="header-select" title="نوع الخط" aria-label="نوع الخط">
+          <option value="'Cairo', sans-serif" data-i18n="fontCairo">خط: Cairo (كايرو)</option>
+          <option value="'Amiri', serif" data-i18n="fontAmiri">خط: Amiri (أميري)</option>
+          <option value="'Tajawal', sans-serif" data-i18n="fontTajawal">خط: Tajawal (تجول)</option>
+          <option value="'Almarai', sans-serif" data-i18n="fontAlmarai">خط: Almarai (المراعي)</option>
+          <option value="'Readex Pro', sans-serif" data-i18n="fontReadex">خط: Readex Pro</option>
+        </select>
+        <select id="fontSizeSelect" class="header-select" title="حجم الخط" aria-label="حجم الخط">
+          <option value="14px" data-i18n="sizeSm">حجم: صغير</option>
+          <option value="16px" selected data-i18n="sizeMd">حجم: متوسط</option>
+          <option value="18px" data-i18n="sizeLg">حجم: كبير</option>
+          <option value="20px" data-i18n="sizeXl">حجم: كبير جداً</option>
+        </select>
+        <button id="btnLang" class="btn-icon" type="button" title="Switch Language">🌐 EN</button>
+        <button id="btnTheme" class="btn-icon" type="button" title="Toggle Theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- VIEW 1: Home & 5 Pillars Overview -->
+    <div id="view-home" class="app-view active">
+      <section class="hero-section">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-tag" data-i18n="heroTag">✨ منهج أهل السنة والجماعة • تطبيق تعليمي متكامل</div>
+            <h2 data-i18n="heroTitle">أركان الإسلام الخمسة: أساس الدين وبناء المسلم</h2>
+            <p data-i18n="heroDesc">دليل علمي وعملي شامل لأركان الإسلام الخمسة على منهج أهل السنة والجماعة، مدعوم بأدلة القرآن الكريم والسنة الصحيحة، مع اختبار تفاعلي وقائمة متابعة عملية.</p>
+            <div class="hero-actions">
+              <button type="button" id="btnHeroStudy" class="btn-gold" data-i18n="startStudyBtn">ابدأ دراسة الأركان</button>
+              <button type="button" id="btnHeroQuiz" class="btn-icon" style="background:rgba(255,255,255,0.14); color:#fff; border-color:rgba(255,255,255,0.3);" data-i18n="startQuizBtn">اختبر معلوماتك</button>
+            </div>
+          </div>
+
+          <aside class="hadith-highlight-box">
+            <span class="hadith-badge" data-i18n="hadithBadge">الحديث الجامع لأركان الإسلام</span>
+            <blockquote data-i18n="hadithText">«بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلَّا اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَالحَجِّ، وَصَوْمِ رَمَضَانَ»</blockquote>
+            <cite data-i18n="hadithCite">رواه البخاري (8) ومسلم (16) عن عبد الله بن عمر رضي الله عنهما</cite>
+          </aside>
+        </div>
+      </section>
+
+      <section class="kpi-strip">
+        <div class="kpi-card" style="--kpi-accent:#059669;">
+          <span class="kpi-label" data-i18n="kpiPillarsLabel">أركان الإسلام</span>
+          <strong class="kpi-value">5</strong>
+          <span class="kpi-sub" data-i18n="kpiPillarsSub">بناء الإسلام العظيم</span>
+        </div>
+        <div class="kpi-card" style="--kpi-accent:#0284c7;">
+          <span class="kpi-label" data-i18n="kpiStudiedLabel">الأركان المُتمَّة</span>
+          <strong class="kpi-value" id="kpiStudied">0 / 5</strong>
+          <span class="kpi-sub" data-i18n="kpiStudiedSub">تقدّمك في الدراسة</span>
+        </div>
+        <div class="kpi-card" style="--kpi-accent:#d97706;">
+          <span class="kpi-label" data-i18n="kpiQuizLabel">أفضل نتيجة اختبار</span>
+          <strong class="kpi-value" id="kpiBestScore">0 / 15</strong>
+          <span class="kpi-sub" data-i18n="kpiQuizSub">من 15 سؤالاً شاملاً</span>
+        </div>
+        <div class="kpi-card" style="--kpi-accent:#7c3aed;">
+          <span class="kpi-label" data-i18n="kpiCheckLabel">المتابعة العملية</span>
+          <strong class="kpi-value" id="kpiChecklist">0 / 8</strong>
+          <span class="kpi-sub" data-i18n="kpiCheckSub">بنود التطبيق اليومي والموسمي</span>
+        </div>
+      </section>
+
+      <div class="section-header">
+        <h3 data-i18n="pillarsSectionTitle">🏛️ الأركان الخمسة — اضغط على أي ركن للتفاصيل</h3>
+      </div>
+      <section class="pillars-grid" id="pillarsOverviewGrid"></section>
+    </div>
+
+    <!-- VIEW 2: Detailed Pillar Study -->
+    <div id="view-study" class="app-view">
+      <div class="study-tabs" id="studyTabs"></div>
+      <section class="study-banner" id="studyBanner"></section>
+      <section class="study-sections-grid" id="studySectionsGrid"></section>
+    </div>
+
+    <!-- VIEW 3: Quran & Sunnah Proofs -->
+    <div id="view-proofs" class="app-view">
+      <div class="section-header">
+        <h3 data-i18n="proofsTitle">📖 الأدلة من الكتاب والسنة الصحيحة</h3>
+      </div>
+      <div class="filter-bar">
+        <input type="search" id="proofSearch" class="search-input" placeholder="ابحث في الآيات أو الأحاديث أو الفوائد..." />
+        <select id="proofPillarFilter" class="filter-select" aria-label="Filter by Pillar"></select>
+        <select id="proofTypeFilter" class="filter-select" aria-label="Filter by Source Type"></select>
+      </div>
+      <section class="proofs-grid" id="proofsGrid"></section>
+    </div>
+
+    <!-- VIEW 4: Interactive Quiz -->
+    <div id="view-quiz" class="app-view">
+      <div class="section-header" style="justify-content:center; text-align:center; flex-direction:column;">
+        <h3 data-i18n="quizTitle">🎯 الاختبار التفاعلي في أركان الإسلام</h3>
+        <p style="color:var(--text-secondary);" data-i18n="quizSubtitle">15 سؤالاً منهجياً على وفق عقيدة وفقه أهل السنة والجماعة</p>
+      </div>
+      <section class="quiz-container" id="quizContainer"></section>
+    </div>
+
+    <!-- VIEW 5: Practice Checklist & Common Mistakes -->
+    <div id="view-practice" class="app-view">
+      <div class="section-header">
+        <h3 data-i18n="checklistTitle">✅ قائمة التطبيق العملي والعبادات</h3>
+      </div>
+      <section class="checklist-grid" id="checklistGrid"></section>
+
+      <div class="section-header">
+        <h3 data-i18n="mistakesTitle">⚠️ أخطاء شائعة وتصحيحها على هدي السنة</h3>
+      </div>
+      <section class="checklist-grid" id="mistakesGrid"></section>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <div class="container">
+      <p style="font-weight:800; color:var(--text-primary); margin-bottom:4px;" data-i18n="footerText">تطبيق موسوعة أركان الإسلام — جميع الحقوق محفوظة لشركة AnubisLand</p>
+      <p data-i18n="footerNote">تم إعداد المادة العلمية والفقهية وفق الكتاب والسنة على منهاج أهل السنة والجماعة.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

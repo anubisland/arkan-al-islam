@@ -1,0 +1,14 @@
+{
+  "name": "موسوعة أركان الإسلام - Anubisland",
+  "short_name": "أركان الإسلام",
+  "description": "تطبيق ويب متكامل عن أركان الإسلام الخمسة على منهاج أهل السنة والجماعة باللغتين العربية والإنجليزية",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "dir": "rtl",
+  "lang": "ar",
+  "theme_color": "#064e3b",
+  "background_color": "#f3f8f5",
+  "categories": ["education", "books", "lifestyle"]
+}
