@@ -1,6 +1,6 @@
 export const TRANSLATIONS = {
   ar: {
-    appTitle: 'موسوعة أركان الإسلام',
+    appTitle: 'أركان الإسلام',
     brandSub: 'على منهاج أهل السنة والجماعة • Anubisland',
     navHome: 'الرئيسية والأركان',
     navStudy: 'الدراسة التفصيلية',
@@ -53,11 +53,11 @@ export const TRANSLATIONS = {
     quizScoreTitle: 'نتيجتك النهائية',
     checklistTitle: '✅ قائمة التطبيق العملي والعبادات',
     mistakesTitle: '⚠️ أخطاء شائعة وتصحيحها على هدي السنة',
-    footerText: 'تطبيق موسوعة أركان الإسلام — جميع الحقوق محفوظة لشركة AnubisLand',
+    footerText: 'تطبيق أركان الإسلام — جميع الحقوق محفوظة لشركة AnubisLand',
     footerNote: 'تم إعداد المادة العلمية والفقهية وفق الكتاب والسنة على منهاج أهل السنة والجماعة.'
   },
   en: {
-    appTitle: 'Pillars of Islam Encyclopedia',
+    appTitle: 'Pillars of Islam',
     brandSub: 'Ahl al-Sunnah wa al-Jama\'ah • Anubisland',
     navHome: 'Home & Pillars',
     navStudy: 'Detailed Study',
@@ -110,7 +110,7 @@ export const TRANSLATIONS = {
     quizScoreTitle: 'Your Final Score',
     checklistTitle: '✅ Practical Worship & Pillars Checklist',
     mistakesTitle: '⚠️ Common Mistakes & Sunnah-Based Corrections',
-    footerText: 'Pillars of Islam Encyclopedia — All Rights Reserved to AnubisLand',
+    footerText: 'Pillars of Islam App — All Rights Reserved to AnubisLand',
     footerNote: 'Prepared in accordance with the Quran and Sunnah upon the methodology of Ahl al-Sunnah wa al-Jama\'ah.'
   }
 };
