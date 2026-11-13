@@ -1,4 +1,4 @@
-const CACHE_NAME = 'anubisland-arkan-v1';
+const CACHE_NAME = 'anubisland-arkan-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -6,7 +6,9 @@ const ASSETS = [
   './manifest.json',
   './js/pillars-data.js',
   './js/i18n.js',
-  './js/app.js'
+  './js/app.js',
+  './icons/icon-192.png',
+  './icons/icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
