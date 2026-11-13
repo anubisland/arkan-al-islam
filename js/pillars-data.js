@@ -8,72 +8,120 @@ export const PILLARS_DATA = [
     titleEn: '1st Pillar: The Two Testimonies (Shahadatayn)',
     shortAr: 'أشهد أن لا إله إلا الله وأشهد أن محمداً رسول الله؛ أصل الدين وأساس التوحيد والاتباع.',
     shortEn: 'Testifying that none has the right to be worshipped except Allah and that Muhammad is His Messenger; the root of Tawhid and Sunnah.',
-    bannerDescAr: 'الشهادتان هما مفتاح الدخول في الإسلام، وبهما يصح كل عمل صالح؛ فـ«لا إله إلا الله» توحيد للمعبود وإخلاص له، و«محمد رسول الله» توحيد للمتبوع ﷺ وتجريد للمتابعة.',
-    bannerDescEn: 'The Shahadatayn are the key to entering Islam and the condition for every righteous deed to be accepted: "La ilaha illa Allah" establishes pure worship for Allah alone, and "Muhammadur Rasulullah" establishes following the Prophet ﷺ alone.',
+    bannerDescAr: 'الشهادتان هما الركن الأعظم وأصل الدين الذي لا يصح إسلام ولا عمل صالح بدونهما؛ فـ«لا إله إلا الله» تقتضي إفراد الله بالعبادة وإخلاص الدين له، و«محمد رسول الله» تقتضي تجريد المتابعة لرسول الله ﷺ وترك البدع والأهواء.',
+    bannerDescEn: 'The Shahadatayn are the supreme pillar and foundation of Islam without which neither faith nor deeds are accepted: "La ilaha illa Allah" establishes exclusive worship of Allah, and "Muhammadur Rasulullah" establishes exclusive following of the Prophet ﷺ.',
     sections: [
       {
-        titleAr: 'المعنى والأركان عند أهل السنة',
-        titleEn: 'Meaning & Pillars (Ahl al-Sunnah)',
+        titleAr: '1. حقيقة التوحيد وأقسامه عند أهل السنة',
+        titleEn: '1. Reality of Tawhid & Its Three Categories',
         items: [
           {
-            headAr: 'معنى «لا إله إلا الله»',
-            headEn: 'Meaning of "La ilaha illa Allah"',
-            bodyAr: 'أي لا معبود بحق إلا الله وحده لا شريك له. ولا يكفي مجرد الإقرار بالربوبية؛ بل لا بد من إفراده تعالى بالعبادة.',
-            bodyEn: 'None has the right to be worshipped in truth except Allah alone. Merely affirming His Lordship is insufficient without singling Him out in worship.'
+            headAr: 'أولاً: توحيد الربوبية',
+            headEn: 'First: Tawhid al-Rububiyyah (Lordship)',
+            bodyAr: 'هو الإقرار الجازم بأن الله وحده هو الخالق الرازق المدبر المحيي المميت، لا شريك له في ملكه ولا معقب لحكمه. وقد أقرّ بهذا القسم كفار قريش ومع ذلك لم يدخلهم في الإسلام لأنهم أشركوا في العبادة: ﴿وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَهُمْ لَيَقُولُنَّ اللَّهُ﴾.',
+            bodyEn: 'Firmly believing that Allah alone is the Creator, Sustainer, and Sovereign Controller. Even the polytheists of Makkah acknowledged this, yet it did not make them Muslims because they associated partners in worship (Quran 43:87).'
           },
           {
-            headAr: 'ركنا «لا إله إلا الله»',
-            headEn: 'Two Pillars of "La ilaha illa Allah"',
-            bodyAr: '1) النفي: «لا إله» نفي لجميع ما يُعبد من دون الله. 2) الإثبات: «إلا الله» إثبات العبادة لله وحده لا شريك له.',
-            bodyEn: '1) Negation ("La ilaha"): rejecting all false deities worshipped besides Allah. 2) Affirmation ("illa Allah"): affirming all worship exclusively for Allah.'
+            headAr: 'ثانياً: توحيد الألوهية (العبادة)',
+            headEn: 'Second: Tawhid al-Uluhiyyah (Worship)',
+            bodyAr: 'هو إفراد الله وحده بجميع أنواع العبادة الظاهرة والباطنة؛ كالدعاء والخوف والرجاء والتوكل والذبح والنذر والاستعانة والصلاة والزكاة. وهو لبُّ دعوة الرسل جميعاً: ﴿وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ﴾.',
+            bodyEn: 'Singling out Allah alone in all acts of outward and inward worship: supplication, fear, hope, reliance, sacrifice, vows, seeking aid, and prayer. This was the core message of every Messenger (Quran 16:36).'
           },
           {
-            headAr: 'مقتضى شهادة أن محمداً رسول الله ﷺ',
-            headEn: 'Requirements of "Muhammad is the Messenger of Allah"',
-            bodyAr: 'طاعته فيما أمر، وتصديقه فيما أخبر، واجتناب ما نهى عنه وزجر، وأن لا يُعبد الله إلا بما شرع.',
-            bodyEn: 'Obeying his commands, believing what he informed us of, abstaining from what he forbade, and worshipping Allah only as he legislated.'
+            headAr: 'ثالثاً: توحيد الأسماء والصفات',
+            headEn: 'Third: Tawhid al-Asma wa al-Sifat (Names & Attributes)',
+            bodyAr: 'إثبات ما أثبته الله لنفسه في كتابه أو أثبته له رسوله ﷺ من الأسماء الحسنى والصفات العلى على وجه يليق بجلاله، من غير تحريف ولا تعطيل ومن غير تكييف ولا تمثيل: ﴿لَيْسَ كَمِثْلِهِ شَيْءٌ ۖ وَهُوَ السَّمِيعُ الْبَصِيرُ﴾.',
+            bodyEn: 'Affirming all Names and Attributes Allah affirmed for Himself or His Messenger ﷺ affirmed, in a manner befitting His Majesty, without distortion, denial, questioning "how", or likening Him to creation (Quran 42:11).'
           }
         ]
       },
       {
-        titleAr: 'شروط «لا إله إلا الله» السبعة',
-        titleEn: 'Seven Conditions of "La ilaha illa Allah"',
+        titleAr: '2. معنى «لا إله إلا الله» وركناها',
+        titleEn: '2. Meaning & Two Pillars of "La ilaha illa Allah"',
         items: [
           {
-            headAr: '1. العلم المنافي للجهل، 2. اليقين المنافي للشك',
-            headEn: '1. Knowledge (vs. Ignorance) & 2. Certainty (vs. Doubt)',
-            bodyAr: 'فهم معناها نفياً وإثباتاً، والجزم القلبي بصدقها دون تردد: ﴿فَاعْلَمْ أَنَّهُ لَا إِلَٰهَ إِلَّا اللَّهُ﴾.',
-            bodyEn: 'Understanding what it negates and affirms, with firm certainty in the heart without doubt (Quran 47:19).'
+            headAr: 'المعنى الدقيق لكلمة التوحيد',
+            headEn: 'Precise Meaning of the Testimony',
+            bodyAr: 'معناها: «لا معبود بحق إلا الله»، وليس معناها «لا خالق إلا الله» فقط؛ لأن الآلهة المعبودة من دون الله موجودة ومخلوقـة، ولكنها معبودة بالباطل: ﴿ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ هُوَ الْبَاطِلُ﴾.',
+            bodyEn: 'It means "None has the right to be worshipped in truth except Allah"—not merely "no creator except Allah," because false deities exist and are worshipped, yet all worship besides Allah is falsehood (Quran 22:62).'
           },
           {
-            headAr: '3. القبول المنافي للرد، 4. الانقياد المنافي للترك',
-            headEn: '3. Acceptance (vs. Rejection) & 4. Submission (vs. Abandonment)',
-            bodyAr: 'قبول ما تقتضيه بالقلب واللسان، والعمل بشرائع الله الظاهرة والباطنة استسلاماً لأمره.',
-            bodyEn: 'Accepting its implications with heart and tongue, and submitting in outward and inward obedience to Allah.'
+            headAr: 'الركن الأول: النفي («لا إله»)',
+            headEn: 'First Pillar: Negation ("La ilaha")',
+            bodyAr: 'نفي الألوهية والعبودية عن كل ما سوى الله من الأصنام والأولياء والملائكة والأنبياء والأحجار والأشجار، والبراءة من كل عبادة تُصرف لغير الله.',
+            bodyEn: 'Rejecting divinity and worship for anything besides Allah—idols, saints, angels, prophets, or objects—and disavowing all worship directed to other than Him.'
           },
           {
-            headAr: '5. الصدق، 6. الإخلاص، 7. المحبة',
-            headEn: '5. Truthfulness, 6. Sincerity & 7. Love',
-            bodyAr: 'صدق القلب مواطئاً للسان، وإخلاص العمل لله وحده بعيداً عن الرياء، ومحبة الله ورسوله ودينه وبغض ما يناقضه.',
-            bodyEn: 'Heartfelt truthfulness matching the tongue, pure sincerity free of showing off, and loving Allah, His Messenger, and His religion.'
+            headAr: 'الركن الثاني: الإثبات («إلا الله»)',
+            headEn: 'Second Pillar: Affirmation ("illa Allah")',
+            bodyAr: 'إثبات جميع أنواع العبادة والطاعة والخضوع لله وحده لا شريك له، كما قال تعالى: ﴿فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ﴾.',
+            bodyEn: 'Affirming all worship, devotion, and submission exclusively for Allah alone (Quran 2:256).'
           }
         ]
       },
       {
-        titleAr: 'ضوابط أهل السنة في الإيمان والنواقض',
-        titleEn: 'Ahl al-Sunnah Principles on Iman & Nullifiers',
+        titleAr: '3. شروط «لا إله إلا الله» السبعة بالأدلة',
+        titleEn: '3. Seven Conditions of "La ilaha illa Allah" with Proofs',
         items: [
           {
-            headAr: 'الإيمان قول وعمل',
-            headEn: 'Iman is Speech and Action',
-            bodyAr: 'عند أهل السنة والجماعة: الإيمان تصديق بالقلب، وقول باللسان، وعمل بالجوارح؛ يزيد بالطاعة وينقص بالمعصية.',
-            bodyEn: 'According to Ahl al-Sunnah: Iman is belief in the heart, speech on the tongue, and action of the limbs; it increases with obedience and decreases with sin.'
+            headAr: '1) العلم بمعناها، 2) اليقين بها',
+            headEn: '1) Knowledge & 2) Certainty',
+            bodyAr: 'العلم المنافي للجهل: ﴿فَاعْلَمْ أَنَّهُ لَا إِلَٰهَ إِلَّا اللَّهُ﴾، واليقين المنافي للشك والريب: ﴿إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ آمَنُوا بِاللَّهِ وَرَسُولِهِ ثُمَّ لَمْ يَرْتَابُوا﴾.',
+            bodyEn: 'Knowledge dispelling ignorance (Quran 47:19) and certainty dispelling doubt (Quran 49:15).'
           },
           {
-            headAr: 'حفظ التوحيد من الشرك والبدع',
-            headEn: 'Guarding Tawhid from Shirk & Innovation',
-            bodyAr: 'اجتناب الشرك الأكبر (كالدعاء والذبح والنذر لغير الله)، والحذر من الابتداع في الدين، والالتزام بالكتاب والسنة بفهم السلف الصالح.',
-            bodyEn: 'Avoiding major Shirk (such as supplicating or sacrificing to other than Allah) and religious innovations, adhering to Quran & Sunnah as understood by the righteous predecessors.'
+            headAr: '3) القبول، 4) الانقياد، 5) الصدق',
+            headEn: '3) Acceptance, 4) Submission & 5) Truthfulness',
+            bodyAr: 'القبول بالقلب واللسان لما اقتضته دون رد أو استكبار، والانقياد لأحكام الشرع بالعمل، والصدق المنافي للكذب والنفاق: «ما من أحد يشهد أن لا إله إلا الله وأن محمداً رسول الله صدقاً من قلبه إلا حرمه الله على النار» (متفق عليه).',
+            bodyEn: 'Accepting its demands without arrogance, submitting in action, and being truthful in heart without hypocrisy (Bukhari & Muslim).'
+          },
+          {
+            headAr: '6) الإخلاص، 7) المحبة',
+            headEn: '6) Sincerity & 7) Love',
+            bodyAr: 'الإخلاص بتصفية العمل من الشرك والرياء: ﴿وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ﴾، ومحبة الله ورسوله ودينه وأهله: ﴿وَالَّذِينَ آمَنُوا أَشَدُّ حُبًّا لِّلَّهِ﴾.',
+            bodyEn: 'Pure sincerity free from Shirk and showing off (Quran 98:5), and loving Allah, His Messenger, and His religion above all else (Quran 2:165).'
+          }
+        ]
+      },
+      {
+        titleAr: '4. شهادة أن محمداً رسول الله ﷺ ومقتضياتها',
+        titleEn: '4. Testifying Muhammad ﷺ is the Messenger & Its Demands',
+        items: [
+          {
+            headAr: 'تصديقه فيما أخبر وطاعته فيما أمر',
+            headEn: 'Believing His Reports & Obeying His Commands',
+            bodyAr: 'التصديق الجازم بكل ما أخبر به عن الله وعن الغيب والآخرة، وطاعة أوامره واجتناب نواهيه: ﴿مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ﴾.',
+            bodyEn: 'Firmly believing everything he conveyed of the unseen and the Hereafter, and obeying his commands while avoiding his prohibitions (Quran 4:80).'
+          },
+          {
+            headAr: 'عبادة الله بما شرع وترك البدع',
+            headEn: 'Worshipping Only as Legislated & Avoiding Bid\'ah',
+            bodyAr: 'أن لا نعبد الله إلا وفق سنته ﷺ بلا زيادة ولا نقصان؛ لقوله ﷺ: «من أحدث في أمرنا هذا ما ليس منه فهو رد» (متفق عليه).',
+            bodyEn: 'Worshipping Allah strictly according to his Sunnah without additions or omissions: "Whoever introduces into this matter of ours that which is not from it will have it rejected" (Bukhari & Muslim).'
+          },
+          {
+            headAr: 'تقديم محبته ﷺ وتوقيره دون غلو',
+            headEn: 'Loving & Honoring Him Without Exaggeration',
+            bodyAr: 'محبته ﷺ أعظم من محبة النفس والوالد والولد، مع عدم الغلو فيه أو دعائه من دون الله؛ لقوله ﷺ: «لا تطروني كما أطرت النصارى ابن مريم، فإنما أنا عبده فقولوا عبد الله ورسوله» (رواه البخاري).',
+            bodyEn: 'Loving him more than oneself and family, while avoiding exaggeration or supplicating to him: "Do not overpraise me as the Christians overpraised the son of Mary; I am only His servant, so say: servant of Allah and His Messenger" (al-Bukhari).'
+          }
+        ]
+      },
+      {
+        titleAr: '5. الإيمان عند أهل السنة ونواقض الإسلام',
+        titleEn: '5. Iman in Ahl al-Sunnah & Nullifiers of Islam',
+        items: [
+          {
+            headAr: 'حقيقة الإيمان وزيادته ونقصانه',
+            headEn: 'Iman: Speech, Belief & Action',
+            bodyAr: 'الإيمان عند أهل السنة والجماعة: اعتقاد بالقلب، وقول باللسان، وعمل بالجوارح؛ يزيد بالطاعة والتدبر والذكر، وينقص بالمعصية والغفلة.',
+            bodyEn: 'Iman is belief in the heart, speech on the tongue, and action of the limbs; it increases with obedience and decreases with sin.'
+          },
+          {
+            headAr: 'التحذير من نواقض التوحيد وضوابطها',
+            headEn: 'Guarding Against Nullifiers of Tawhid',
+            bodyAr: 'من أعظم ما ينقض الشهادتين: الشرك بالله، واتخاذ الوسائط التي تُدعى وتُسأل من دون الله، والاعتقاد بأن هدي غير النبي ﷺ أكمل من هديه، والاستهزاء بشيء من الدين، والسحر، وموالاة أعداء الدين ضد المسلمين. وتنزيل الأحكام على المعينين منوط بالعلماء بعد استيفاء الشروط وانتفاء الموانع.',
+            bodyEn: 'Major nullifiers include Shirk, taking intermediaries to supplicate to besides Allah, believing non-prophetic guidance is superior, mocking the religion, sorcery, and allying against Muslims. Applying rulings to specific individuals belongs to qualified scholars after verifying conditions and ruling out impediments.'
           }
         ]
       }
@@ -88,60 +136,84 @@ export const PILLARS_DATA = [
     titleEn: '2nd Pillar: Establishing the Prayer (Salah)',
     shortAr: 'عمود الإسلام وأعظم أركانه العملية، الصلة المباشرة بين العبد وربه خمس مرات كل يوم.',
     shortEn: 'The pillar of Islam and the greatest practical obligation; the direct link between the servant and Allah five times daily.',
-    bannerDescAr: 'الصلاة هي عمود الدين وأول ما يُحاسب عليه العبد يوم القيامة؛ فُرضت في السماء ليلة المعراج لعظم شأنها، وتُقام بخشوع وطمأنينة وفق هدي النبي ﷺ: «صلوا كما رأيتموني أصلي».',
-    bannerDescEn: 'Salah is the mainstay of the religion and the first deed a servant will be called to account for on the Day of Resurrection. Enjoined directly in the heavens, it is performed with humility and tranquility following the Prophet ﷺ: "Pray as you have seen me praying."',
+    bannerDescAr: 'الصلاة هي عمود الدين وأعظم أركانه العملية بعد الشهادتين؛ فُرضت في السماء السابعة ليلة المعراج بلا واسطة، وهي أول ما يُحاسب عليه العبد يوم القيامة، وتُؤدى بخشوع وطمأنينة على وفق هدي النبي ﷺ: «صلوا كما رأيتموني أصلي».',
+    bannerDescEn: 'Salah is the mainstay of Islam and the greatest practical pillar after the Shahadatayn. Enjoined directly in the seventh heaven during al-Mi\'raj, it is the first deed judged on the Day of Resurrection, performed with humility and tranquility following the Prophet ﷺ: "Pray as you have seen me praying."',
     sections: [
       {
-        titleAr: 'شروط الصلاة التسعة',
-        titleEn: 'Nine Conditions of Salah (Before Starting)',
+        titleAr: '1. مكانة الصلاة وفضلها وحكم تاركها',
+        titleEn: '1. Status, Virtues & Ruling on Abandoning Salah',
         items: [
           {
-            headAr: 'شروط التكليف والوقت والطهارة',
-            headEn: 'Eligibility, Time & Purification',
-            bodyAr: '1) الإسلام، 2) العقل، 3) التمييز، 4) دخول الوقت، 5) الطهارة من الحدثين بالوضوء أو الغسل، 6) إزالة النجاسة عن البدن والثوب والمكان.',
-            bodyEn: '1) Islam, 2) Sanity, 3) Discernment, 4) Entry of prayer time, 5) Purification from ritual impurity (Wudu/Ghusl), 6) Removal of physical impurity from body, clothes, and place.'
+            headAr: 'أعظم عبادة بدنية وصلة بين العبد وربه',
+            headEn: 'The Direct Link Between Servant & Lord',
+            bodyAr: 'الصلاة تنهى عن الفحشاء والمنكر، وتكفر السيئات: «أرأيتم لو أن نهراً بباب أحدكم يغتسل فيه كل يوم خمس مرات، هل يبقى من درنه شيء؟ قالوا: لا، قال: فذلك مثل الصلوات الخمس يمحو الله بهن الخطايا» (متفق عليه).',
+            bodyEn: 'Salah restrains from immorality and washes away sins like bathing five times daily in a pure river (Bukhari & Muslim).'
           },
           {
-            headAr: 'الستر والقبلة والنية',
-            headEn: 'Covering Awrah, Qiblah & Intention',
-            bodyAr: '7) ستر العورة، 8) استقبال القبلة (الكعبة المشرفة)، 9) النية ومحلها القلب دون التلفظ بها.',
-            bodyEn: '7) Covering the Awrah, 8) Facing the Qiblah (Kaaba), 9) Intention in the heart (without uttering it aloud).'
+            headAr: 'خطورة ترك الصلاة أو التهاون بها',
+            headEn: 'Gravity of Abandoning or Neglecting Salah',
+            bodyAr: 'قال النبي ﷺ: «العهد الذي بيننا وبينهم الصلاة، فمن تركها فقد كفر» (رواه الترمذي والنسائي وصححه الألباني). وقد أجمع الصحابة والتابعون على أن ترك الصلاة جحوداً كفر أكبر، واختلفوا في تاركها تهاوناً وكسلاً مع الإقرار بوجوبها؛ وذهب جمع من السلف وأهل الحديث إلى كفره، وجمهور الفقهاء إلى أنه فاسق مرتكب لأعظم الكبائر يُستتاب.',
+            bodyEn: 'The Prophet ﷺ said: "The covenant between us and them is prayer; whoever abandons it has disbelieved." Denying its obligation is consensus Kufr; abandoning it out of laziness is among the gravest sins, and several Salaf scholars deemed it Kufr.'
           }
         ]
       },
       {
-        titleAr: 'أركان الصلاة وواجباتها',
-        titleEn: 'Pillars (Arkan) & Obligations (Wajibat)',
+        titleAr: '2. شروط صحة الصلاة التسعة والطهارة',
+        titleEn: '2. Nine Conditions of Salah & Purification',
         items: [
           {
-            headAr: 'أبرز أركان الصلاة (لا تسقط عمداً ولا سهواً)',
-            headEn: 'Key Pillars of Salah (Never Dropped)',
-            bodyAr: 'القيام مع القدرة، تكبيرة الإحرام، قراءة الفاتحة في كل ركعة، الركوع، الرفع منه، السجود على الأعضاء السبعة، الجلسة بين السجدتين، الطمأنينة في جميع الأركان، التشهد الأخير والجلوس له، الصلاة على النبي ﷺ، الترتيب، والتسليم.',
-            bodyEn: 'Standing if able, opening Takbir, reciting Al-Fatihah in every unit, bowing, rising from bowing, prostrating on seven bones, sitting between prostrations, tranquility in all postures, final Tashahhud and sitting for it, blessings on the Prophet ﷺ, sequence, and Taslim.'
+            headAr: 'شروط الأهلية والوقت والقبلة والستر',
+            headEn: 'Eligibility, Time, Qiblah & Covering Awrah',
+            bodyAr: '1) الإسلام، 2) العقل، 3) التمييز (سن السابعة فما فوق)، 4) دخول الوقت المحدد شرعاً، 5) ستر العورة (للرجل من السرة إلى الركبة مع تغطية أحد المنكبين في الفرض، وللمرأة جميع بدنها عدا الوجه والكفين ما لم يكن بحضرة أجانب)، 6) استقبال القبلة (الكعبة المشرفة).',
+            bodyEn: '1) Islam, 2) Sanity, 3) Discernment, 4) Entry of prayer time, 5) Covering Awrah (navel to knees + shoulder for men; entire body except face and hands for women when not before non-Mahram men), 6) Facing the Qiblah.'
           },
           {
-            headAr: 'واجبات الصلاة (تُجبر بسجود السهو إذا نُسيت)',
-            headEn: 'Obligations (Compensated by Sujud al-Sahw if Forgotten)',
-            bodyAr: 'جميع التكبيرات غير الإحرام، قول «سمع الله لمن حمده» للإمام والمنفرد، و«ربنا ولك الحمد»، و«سبحان ربي العظيم» في الركوع، و«سبحان ربي الأعلى» في السجود، و«رب اغفر لي» بين السجدتين، والتشهد الأول والجلوس له.',
-            bodyEn: 'All Takbirs besides the opening one, saying "Sami\'Allahu liman hamidah" & "Rabbana wa laka al-hamd", "Subhana Rabbiyal-Azim" in bowing, "Subhana Rabbiyal-A\'la" in prostration, "Rabbighfir li" between prostrations, and the first Tashahhud.'
+            headAr: 'الطهارة من الحدث والخبث والنية',
+            headEn: 'Purification (Wudu/Ghusl/Tayammum) & Intention',
+            bodyAr: '7) رفع الحدث الأصغر بالوضوء (أو الأكبر بالغسل، أو التيمم عند العجز أو فقد الماء)، 8) إزالة النجاسة عن البدن والثوب ومكان الصلاة، 9) النية ومحلها القلب دون التلفظ بها لأن التلفظ بدعة لم يرد عن النبي ﷺ.',
+            bodyEn: '7) Ritual purity via Wudu, Ghusl, or Tayammum, 8) Removing physical impurity from body, clothes, and prayer spot, 9) Intention in the heart (without uttering it aloud).'
           }
         ]
       },
       {
-        titleAr: 'الصلوات المفروضة والسنن الرواتب',
-        titleEn: 'Five Daily Prayers & Regular Sunnahs',
+        titleAr: '3. أركان الصلاة وواجباتها وسننها',
+        titleEn: '3. Pillars, Obligations & Sunnahs of Salah',
         items: [
           {
-            headAr: 'الصلوات الخمس (17 ركعة يومياً)',
-            headEn: 'The Five Obligatory Prayers (17 Rak\'ahs Daily)',
-            bodyAr: 'الفجر (2)، الظهر (4)، العصر (4)، المغرب (3)، العشاء (4). وتُؤدى جماعةً في المسجد للرجال.',
-            bodyEn: 'Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), Isha (4). Men are obligated/strongly enjoined to perform them in congregation at the masjid.'
+            headAr: 'أركان الصلاة الأربعة عشر (لا تسقط عمداً ولا سهواً)',
+            headEn: 'Fourteen Pillars (Never Dropped)',
+            bodyAr: '1) القيام مع القدرة في الفرض، 2) تكبيرة الإحرام («الله أكبر»)، 3) قراءة الفاتحة في كل ركعة، 4) الركوع، 5) الرفع من الركوع، 6) الاعتدال قائماً، 7) السجود على الأعضاء السبعة (الجبهة مع الأنف، اليدين، الركبتين، أطراف القدمين)، 8) الرفع منه، 9) الجلسة بين السجدتين، 10) الطمأنينة في جميع الأركان، 11) التشهد الأخير، 12) الجلوس له، 13) الصلاة على النبي ﷺ فيه، 14) الترتيب والتسليم.',
+            bodyEn: 'Standing if able, opening Takbir, Al-Fatihah in every Rak\'ah, bowing, rising, standing straight, prostrating on 7 bones, rising, sitting between prostrations, tranquility in all postures, final Tashahhud, sitting for it, blessings on the Prophet ﷺ, sequence, and Taslim.'
           },
           {
-            headAr: 'السنن الرواتب (12 ركعة في اليوم والليلة)',
-            headEn: 'Regular Sunnah Prayers (12 Rak\'ahs)',
-            bodyAr: 'ركعتان قبل الفجر، وأربع قبل الظهر وركعتان بعدها، وركعتان بعد المغرب، وركعتان بعد العشاء؛ من حافظ عليها بنى الله له بيتاً في الجنة (رواه مسلم).',
-            bodyEn: '2 before Fajr, 4 before Dhuhr & 2 after Dhuhr, 2 after Maghrib, and 2 after Isha. Whoever maintains them, Allah builds for him a house in Paradise (Muslim).'
+            headAr: 'واجبات الصلاة الثمانية (تُجبر بسجود السهو)',
+            headEn: 'Eight Obligations (Compensated by Sujud al-Sahw)',
+            bodyAr: '1) جميع التكبيرات غير الإحرام، 2) قول «سمع الله لمن حمده» للإمام والمنفرد، 3) «ربنا ولك الحمد» للجميع، 4) «سبحان ربي العظيم» في الركوع، 5) «سبحان ربي الأعلى» في السجود، 6) «رب اغفر لي» بين السجدتين، 7) التشهد الأول، 8) الجلوس للتشهد الأول.',
+            bodyEn: 'All Takbirs besides the opening one, "Sami\'Allahu liman hamidah" (Imam/solo), "Rabbana wa laka al-hamd", "Subhana Rabbiyal-Azim" in bowing, "Subhana Rabbiyal-A\'la" in prostration, "Rabbighfir li" between prostrations, first Tashahhud, and sitting for it.'
+          },
+          {
+            headAr: 'أبرز سنن الصلاة القولية والفعلية',
+            headEn: 'Key Verbal & Physical Sunnahs',
+            bodyAr: 'دعاء الاستفتاح، الاستعاذة والبسملة سراً، قول «آمين»، قراءة سورة بعد الفاتحة في الأوليين، رفع اليدين حذو المنكبين أو الأذنين عند التكبيرات الأربع (الإحرام، الركوع، الرفع منه، والقيام من التشهد الأول)، وضع اليمنى على اليسرى على الصدر، والتورك في التشهد الأخير، والالتفات يميناً وشمالاً عند التسليم.',
+            bodyEn: 'Opening du\'a, silent Isti\'adhah/Basmalah, saying Amin, reciting a Surah after Al-Fatihah in the first two Rak\'ahs, raising hands at the 4 positions, placing right hand over left on chest, and turning head right and left at Taslim.'
+          }
+        ]
+      },
+      {
+        titleAr: '4. أوقات الصلوات والرواتب وسجود السهو',
+        titleEn: '4. Prayer Times, Rawatib & Sujud al-Sahw',
+        items: [
+          {
+            headAr: 'الصلوات الخمس وأوقاتها والسنن الرواتب (12 ركعة)',
+            headEn: 'Five Daily Prayers & 12 Regular Sunnahs',
+            bodyAr: 'الفجر (2) من طلوع الفجر الصادق إلى طلوع الشمس؛ الظهر (4) من زوال الشمس إلى أن يصير ظل الشيء مثله؛ العصر (4) إلى اصفرار الشمس؛ المغرب (3) من الغروب إلى مغيب الشفق الأحمر؛ العشاء (4) إلى منتصف الليل. والسنن الرواتب 12 ركعة: 2 قبل الفجر، 4 قبل الظهر و2 بعدها، 2 بعد المغرب، 2 بعد العشاء.',
+            bodyEn: 'Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), Isha (4) totaling 17 obligatory Rak\'ahs, alongside 12 regular Sunnah Rak\'ahs: 2 before Fajr, 4 before & 2 after Dhuhr, 2 after Maghrib, 2 after Isha.'
+          },
+          {
+            headAr: 'أحكام سجود السهو وصلاة الجماعة',
+            headEn: 'Sujud al-Sahw & Congregational Prayer',
+            bodyAr: 'سجود السهو سجدتان قبل السلام عند النقص أو الشك المتردد، وبعد السلام عند الزيادة أو البناء على غالب الظن. وصلاة الجماعة في المسجد واجبة على الرجال القادرين وتفضل صلاة الفذ بسبع وعشرين درجة.',
+            bodyEn: 'Sujud al-Sahw is two prostrations (before Taslim for omission/doubt, after Taslim for addition). Congregational prayer in the masjid is 27 times greater in reward.'
           }
         ]
       }
@@ -156,54 +228,84 @@ export const PILLARS_DATA = [
     titleEn: '3rd Pillar: Paying the Zakah',
     shortAr: 'عبادة مالية واجبة تطهّر المال والنفس وتكفل الفقراء والمحتاجين وتقيم التكافل.',
     shortEn: 'An obligatory financial worship that purifies wealth and soul and supports the poor and needy.',
-    bannerDescAr: 'الزكاة حقٌّ معلوم أوجبه الله في أموال الأغنياء ليردّ على الفقراء، وهي قرينة الصلاة في القرآن الكريم في مواضع كثيرة، ولها أنصبة ومصارف محددة بالوحي.',
-    bannerDescEn: 'Zakah is a specified right ordained by Allah in the wealth of the rich to be returned to the eligible recipients. Paired frequently with Salah in the Quran, its thresholds and recipients are fixed by revelation.',
+    bannerDescAr: 'الزكاة فريضة مالية محكمة وركن ثالث من أركان الإسلام، قُرنت بالصلاة في القرآن في نحو ثمانين موضعاً. وهي طهارةٌ للمال من الشح والآفات، وتكافلٌ يحفظ كرامة الفقراء ويبارك في الاقتصاد.',
+    bannerDescEn: 'Zakah is a precisely legislated financial obligation and the third pillar of Islam, paired with Salah in dozens of Quranic verses. It purifies wealth from greed and uplifts the needy.',
     sections: [
       {
-        titleAr: 'شروط وجوب الزكاة',
-        titleEn: 'Conditions for Zakah Obligation',
+        titleAr: '1. حقيقة الزكاة وحكمها وحكم مانعها',
+        titleEn: '1. Reality of Zakah, Ruling & Wisdom',
         items: [
           {
-            headAr: 'الإسلام والحرية وملك النصاب',
-            headEn: 'Islam, Freedom & Owning the Nisab',
-            bodyAr: 'أن يبلغ المال النصاب الشرعي: 85 جراماً من الذهب الخالص (عيار 24) أو 595 جراماً من الفضة، أو ما يعادلهما من النقود وعروض التجارة.',
-            bodyEn: 'Wealth must reach the Nisab threshold: 85g of pure 24K gold or 595g of silver, or equivalent value in cash and trade goods.'
+            headAr: 'معنى الزكاة والحكمة من تشريعها',
+            headEn: 'Meaning & Legislative Wisdom',
+            bodyAr: 'الزكاة لغةً: النماء والطهارة والبركة. وشرعاً: حقٌّ واجبٌ في مالٍ مخصوص لطائفةٍ مخصوصة في وقتٍ مخصوص. وتطهر قلب الغني من البخل، وقلب الفقير من الحسد، وتُنمي المال: «ما نقصت صدقة من مال» (رواه مسلم).',
+            bodyEn: 'Linguistically: growth, purity, and blessing. Legally: a specified right in specific wealth for specific recipients at a specific time. It purifies hearts and blesses wealth (Muslim).'
           },
           {
-            headAr: 'حولان الحول والملك التام',
-            headEn: 'One Lunar Year (Hawl) & Full Ownership',
-            bodyAr: 'مرور سنة هجرية كاملة على بلوغ النصاب في النقود والذهب والفضة وعروض التجارة والأنعام؛ أما الزروع والثمار فتُزكّى يوم حصادها.',
-            bodyEn: 'One complete Hijri lunar year passing over the Nisab for cash, gold, silver, trade inventory, and livestock; crops are due at harvest.'
+            headAr: 'حكم مانع الزكاة',
+            headEn: 'Ruling on Withholding Zakah',
+            bodyAr: 'من جحد وجوبها كفر لمخالفته المعلوم من الدين بالضرورة، ومن بخل بها مع إقراره بوجوبها ارتكب كبيرةً عظيمة وتؤخذ منه قهراً مع العقوبة والتعزير، لقول أبي بكر الصديق رضي الله عنه: «والله لأقاتلن من فرق بين الصلاة والزكاة».',
+            bodyEn: 'Denying its obligation is disbelief; withholding it out of stinginess while affirming its obligation is a major sin, and the Islamic authority collects it with due penalty.'
           }
         ]
       },
       {
-        titleAr: 'أنواع الأموال الزكوية ومقاديرها',
-        titleEn: 'Zakatable Assets & Rates',
+        titleAr: '2. شروط وجوب الزكاة الخمسة',
+        titleEn: '2. Five Conditions for Zakah Obligation',
         items: [
           {
-            headAr: 'النقدان وعروض التجارة (2.5%)',
-            headEn: 'Cash, Gold, Silver & Trade Goods (2.5%)',
-            bodyAr: 'تُخرج ربع العشر (2.5%) من إجمالي النقود والذهب والفضة وقيمة البضائع المعدة للبيع بعد خصم الديون الحالة.',
-            bodyEn: '2.5% (one-fortieth) of cash, gold, silver, and market value of trade inventory after deducting due debts.'
+            headAr: '1) الإسلام، 2) الحرية، 3) الملك التام',
+            headEn: '1) Islam, 2) Freedom & 3) Full Ownership',
+            bodyAr: 'لا تجب على غير المسلم، ولا على المملوك، ويشترط أن يكون المال مملوكاً لصاحبه ملكاً مستقراً يتصرف فيه؛ فلا زكاة في المال العام أو الموقوف لجهة عامة.',
+            bodyEn: 'Obligatory only on free Muslims with full, stable ownership of the wealth.'
           },
           {
-            headAr: 'الزروع والثمار وزكاة الفطر',
-            headEn: 'Crops & Zakat al-Fitr',
-            bodyAr: 'الزروع: 10% إذا سُقيت بغير مؤونة (كالمطر)، و5% إذا سُقيت بمؤونة، ونصابها 5 أوسق (نحو 612–653 كجم). وزكاة الفطر: صاع من طعام البلد على كل مسلم قبل صلاة العيد.',
-            bodyEn: 'Crops: 10% if rain-fed, 5% if irrigated with cost, upon reaching 5 Awsuq (~612–653 kg). Zakat al-Fitr: 1 Sa\' of staple food per Muslim before Eid prayer.'
+            headAr: '4) بلوغ النصاب، 5) تمام الحول الهجري',
+            headEn: '4) Reaching Nisab & 5) Completion of One Lunar Year',
+            bodyAr: 'النصاب هو الحد الأدنى الذي تبدأ عنده الزكاة (85 جم ذهب عيار 24 أو 595 جم فضة). والحول هو مرور سنة هجرية قمرية كاملة على بلوغ النصاب (عدا الزروع والثمار والركاز فتجب فور تحصيلها).',
+            bodyEn: 'Nisab is the minimum threshold (85g 24K gold or 595g silver). Hawl is one full Hijri lunar year (except crops and buried treasure, which are due immediately).'
           }
         ]
       },
       {
-        titleAr: 'مصارف الزكاة الثمانية (التوبة: 60)',
-        titleEn: 'Eight Eligible Recipients (Quran 9:60)',
+        titleAr: '3. الأموال الزكوية وأنصبتها بالتفصيل',
+        titleEn: '3. Zakatable Assets & Thresholds in Detail',
         items: [
           {
-            headAr: 'أهل الحاجة والولاء والإصلاح',
-            headEn: 'The Eight Categories',
-            bodyAr: '1) الفقراء، 2) المساكين، 3) العاملون عليها، 4) المؤلفة قلوبهم، 5) في الرقاب، 6) الغارمون، 7) في سبيل الله، 8) ابن السبيل.',
-            bodyEn: '1) The poor (Fuqara), 2) The needy (Masakin), 3) Zakah administrators, 4) Those whose hearts are reconciled, 5) Freeing captives, 6) Debtors, 7) In the cause of Allah, 8) Stranded travelers.'
+            headAr: 'النقود والذهب والفضة وعروض التجارة (2.5%)',
+            headEn: 'Cash, Gold, Silver & Trade Inventory (2.5%)',
+            bodyAr: 'تُقوَّم البضائع المعدة للبيع بسعر البيع عند تمام الحول وتُضم إلى النقود والذهب المدخر، وتُخصم الديون الحالة، ثم يُخرج 2.5% (ربع العشر). ولا زكاة في حلي المرأة المعد للاستعمال المباح عند الجمهور.',
+            bodyEn: 'Trade inventory is valued at market price at year-end, added to cash and savings gold, due debts deducted, and 2.5% is paid. Personal-use jewelry is exempt according to the majority.'
+          },
+          {
+            headAr: 'الزروع والثمار والركاز وبهيمة الأنعام',
+            headEn: 'Crops, Buried Treasure & Livestock',
+            bodyAr: 'الزروع والثمار: نصابها 5 أوسق (~653 كجم)، يُخرج 10% إن سُقيت بلا مؤونة و5% إن سُقيت بمؤونة. الركاز (الكنز المدفون من الجاهلية): فيه الخُمس (20%) فوراً. بهيمة الأنعام (الإبل والبقر والغنم السائمة): لها جداول أنصبة خاصة في السنة النبوية.',
+            bodyEn: 'Crops (threshold ~653 kg): 10% rain-fed, 5% irrigated. Pre-Islamic buried treasure (Rikaz): 20% immediately. Grazing livestock follow specific prophetic schedules.'
+          },
+          {
+            headAr: 'زكاة الفطر (صدقة الفطر)',
+            headEn: 'Zakat al-Fitr',
+            bodyAr: 'فرض على كل مسلم صغير أو كبير، ذكر أو أنثى، ومقدارها صاع (نحو 2.5–3 كجم) من غالب قوت البلد، وتُخرج قبل صلاة عيد الفطر طهرةً للصائم وطعمةً للمساكين.',
+            bodyEn: 'Obligatory on every Muslim (~2.5–3 kg of staple food), paid before Eid al-Fitr prayer to purify the fasting person and feed the needy.'
+          }
+        ]
+      },
+      {
+        titleAr: '4. مصارف الزكاة الثمانية وضوابط الدفع',
+        titleEn: '4. Eight Eligible Recipients & Payment Rules',
+        items: [
+          {
+            headAr: 'المصارف الثمانية بنص سورة التوبة (آية 60)',
+            headEn: 'The Eight Categories (Quran 9:60)',
+            bodyAr: '1) الفقراء (من لا يجدون كفايتهم)، 2) المساكين (أحسن حالاً من الفقير لكن دخلهم لا يكفي)، 3) العاملون عليها (السعاة والجباة)، 4) المؤلفة قلوبهم، 5) في الرقاب (تحرير الأسرى والعبيد)، 6) الغارمون (المدينون العاجزون عن السداد)، 7) في سبيل الله (الجهاد ونصرة الدين)، 8) ابن السبيل (المسافر المنقطع).',
+            bodyEn: '1) The destitute, 2) The needy, 3) Zakah collectors, 4) Those whose hearts are to be reconciled, 5) Freeing captives, 6) Indebted unable to pay, 7) In the cause of Allah, 8) Stranded travelers.'
+          },
+          {
+            headAr: 'من لا تجوز لهم الزكاة',
+            headEn: 'Who Cannot Receive Zakah',
+            bodyAr: 'لا تُدفع الزكاة للأغنياء، ولا للأصول (الآباء والأجداد) والفروع (الأولاد والأحفاد) ولا للزوجة؛ لأن نفقتهم واجبة، ولا لغير المسلم (عدا المؤلفة قلوبهم)، ولا لآل بيت النبي ﷺ (بني هاشم) صيانةً لشرفهم.',
+            bodyEn: 'Not given to the wealthy, one\'s parents/children/spouse (whom one must already support), non-Muslims (except Mu\'allafat al-Qulub), or the Prophet\'s family (Banu Hashim).'
           }
         ]
       }
@@ -218,60 +320,78 @@ export const PILLARS_DATA = [
     titleEn: '4th Pillar: Fasting Ramadan (Sawm)',
     shortAr: 'التعبد لله بالإمساك عن المفطرات من طلوع الفجر إلى غروب الشمس في شهر رمضان المبارك.',
     shortEn: 'Worshipping Allah by abstaining from food, drink, and other nullifiers from dawn (Fajr) until sunset (Maghrib) in Ramadan.',
-    bannerDescAr: 'الصوم سرٌّ بين العبد وربه، قال الله تعالى في الحديث القدسي: «كل عمل ابن آدم له إلا الصوم فإنه لي وأنا أجزي به»، وهو مدرسة للتقوى والصبر ومضاعفة الحسنات.',
-    bannerDescEn: 'Fasting is a secret act of devotion between the servant and Allah. Allah says in a Hadith Qudsi: "Every deed of the son of Adam is for him except fasting; it is for Me and I shall reward it." It is a school of Taqwa and patience.',
+    bannerDescAr: 'صيام شهر رمضان ركن رابع من أركان الإسلام، فرضه الله في السنة الثانية للهجرة لتحقيق التقوى وتربية النفس على الصبر والإخلاص. وقد اختصه الله بقوله في الحديث القدسي: «كل عمل ابن آدم له إلا الصوم فإنه لي وأنا أجزي به».',
+    bannerDescEn: 'Fasting Ramadan is the fourth pillar of Islam, ordained in the 2nd year of Hijrah to cultivate Taqwa, patience, and sincerity. Allah singled it out in a Hadith Qudsi: "Every deed of the son of Adam is for him except fasting; it is for Me and I shall reward it."',
     sections: [
       {
-        titleAr: 'شروط الوجوب وأركان الصيام',
-        titleEn: 'Conditions & Pillars of Fasting',
+        titleAr: '1. معنى الصيام وفضله ومقاصده',
+        titleEn: '1. Meaning, Virtues & Purposes of Fasting',
         items: [
           {
-            headAr: 'شروط وجوب صيام رمضان',
-            headEn: 'Who Must Fast',
-            bodyAr: 'الإسلام، البلوغ، العقل، القدرة على الصوم، الإقامة (غير المسافر)، والخلو من الموانع الشرعية (كالحيض والنفاس للمرأة).',
-            bodyEn: 'Islam, puberty, sanity, physical ability, residency (not traveling), and absence of impediments (such as menstruation or post-natal bleeding).'
+            headAr: 'التعريف والمقصد الأعظم (التقوى)',
+            headEn: 'Definition & Ultimate Purpose (Taqwa)',
+            bodyAr: 'الصيام شرعاً: التعبد لله تعالى بالإمساك عن الأكل والشرب وسائر المفطرات من طلوع الفجر الصادق إلى غروب الشمس بنية. ومقصده الأسمى تحقيق التقوى، وتزكية النفس، ومواساة المحتاجين، وكسر حدة الشهوة.',
+            bodyEn: 'Worshipping Allah by abstaining from food, drink, and nullifiers from true dawn until sunset with intention. Its supreme goal is attaining Taqwa, self-discipline, and empathy for the needy.'
           },
           {
-            headAr: 'ركنا الصيام',
+            headAr: 'فضائل شهر رمضان',
+            headEn: 'Virtues of Ramadan',
+            bodyAr: 'تُفتح فيه أبواب الجنة، وتُغلق أبواب النار، وتُصفد الشياطين، وفيه ليلة القدر خير من ألف شهر، ومن صامه وقامه إيماناً واحتساباً غُفر له ما تقدم من ذنبه.',
+            bodyEn: 'The gates of Paradise open, the gates of Hell close, devils are chained, and Laylat al-Qadr is better than a thousand months. Fasting and praying it with faith and hope for reward forgives past sins.'
+          }
+        ]
+      },
+      {
+        titleAr: '2. ثبوت الشهر وشروط الوجوب والأركان',
+        titleEn: '2. Sighting the Crescent, Conditions & Pillars',
+        items: [
+          {
+            headAr: 'ثبوت دخول رمضان وشروط وجوبه',
+            headEn: 'Establishing Ramadan & Conditions of Obligation',
+            bodyAr: 'يثبت رمضان برؤية الهلال أو إتمام شعبان ثلاثين يوماً: «صوموا لرؤيته وأفطروا لرؤيته». ويجب الصوم على المسلم البالغ العاقل القادر المقيم الخالي من الموانع (كالحيض والنفاس).',
+            bodyEn: 'Ramadan begins with sighting the crescent or completing 30 days of Sha\'ban. Fasting is obligatory on every sane, adult, capable, resident Muslim free of impediments (like menstruation).'
+          },
+          {
+            headAr: 'ركنا الصيام (النية والإمساك)',
             headEn: 'Two Pillars of Fasting',
-            bodyAr: '1) النية: تبييت نية صيام الفرض من الليل قبل الفجر. 2) الإمساك عن جميع المفطرات من طلوع الفجر الصادق إلى غروب الشمس.',
-            bodyEn: '1) Intention: resolving to fast the obligatory fast during the night before Fajr. 2) Abstaining from all nullifiers from true dawn until sunset.'
+            bodyAr: '1) النية: يجب تبييتها من الليل قبل طلوع الفجر في صيام الفرض («من لم يبيت الصيام قبل الفجر فلا صيام له»)، وتكفي نية واحدة أول الشهر أو تجديدها كل ليلة. 2) الإمساك عن المفطرات من طلوع الفجر الصادق إلى غروب الشمس.',
+            bodyEn: '1) Intention resolved during the night before Fajr for obligatory fasts. 2) Abstaining from all nullifiers from true Fajr until sunset.'
           }
         ]
       },
       {
-        titleAr: 'المفطرات والأعذار المبيحة للفطر',
-        titleEn: 'Nullifiers & Valid Excuses',
+        titleAr: '3. المفطرات وما لا يفطر الصائم',
+        titleEn: '3. Nullifiers vs. What Does Not Break the Fast',
         items: [
           {
-            headAr: 'مفطرات الصيام عمداً',
-            headEn: 'Intentional Nullifiers',
-            bodyAr: 'الأكل والشرب عمداً، والجماع (وتجب فيه الكفارة المغلظة مع القضاء)، وإنزال المني باختيار، والقيء عمداً، وما كان بمعنى الأكل والشرب كالإبر المغذية.',
-            bodyEn: 'Intentional eating/drinking, marital intercourse (requires major expiation + makeup), deliberate ejaculation, intentional vomiting, and nutritional IV drips.'
+            headAr: 'المفطرات السبعة (إذا فُعلت عمداً مع العلم والذكر)',
+            headEn: 'Seven Nullifiers (If Done Intentionally)',
+            bodyAr: '1) الأكل والشرب عمداً، 2) الجماع (ويوجب القضاء والكفارة المغلظة: عتق رقبة فصيام شهرين متتابعين فإطعام 60 مسكيناً)، 3) إنزال المني باختيار، 4) ما كان بمعنى الأكل والشرب كالإبر المغذية، 5) إخراج الدم بالحجامة على الراجح، 6) القيء عمداً، 7) خروج دم الحيض أو النفاس.',
+            bodyEn: 'Intentional eating/drinking, intercourse (requires makeup + major expiation), deliberate ejaculation, nutritional IV drips, cupping (Hijama) on the stronger view, intentional vomiting, and menstruation/post-natal bleeding.'
           },
           {
-            headAr: 'أصحاب الأعذار',
-            headEn: 'Valid Excuses',
-            bodyAr: 'المريض والمسافر: يفطران ويقضيان عدة من أيام أخر. والعاجز عجزاً دائماً لكبر سن أو مرض لا يُرجى برؤه: يطعم عن كل يوم مسكيناً.',
-            bodyEn: 'The sick and the traveler may break their fast and make up the missed days later. The permanently unable (elderly/chronically ill) feed one needy person per day.'
+            headAr: 'أمور لا تفطر الصائم',
+            headEn: 'Things That Do Not Break the Fast',
+            bodyAr: 'الأكل والشرب ناسياً («فإنما أطعمه الله وسقاه»)، القيء بغير اختيار، الاحتلام، السواك ومعجون الأسنان مع الاحتراز من البلع، المضمضة والاستنشاق دون مبالغة، قطرة العين والأذن، والحقن غير المغذية.',
+            bodyEn: 'Eating/drinking forgetfully, involuntary vomiting, wet dreams, Siwak/toothbrushing without swallowing, rinsing without exaggeration, eye/ear drops, and non-nutritional injections.'
           }
         ]
       },
       {
-        titleAr: 'سنن الصيام وليلة القدر',
-        titleEn: 'Sunnahs of Fasting & Laylat al-Qadr',
+        titleAr: '4. أصحاب الأعذار وآداب الصيام والاعتكاف',
+        titleEn: '4. Excuses, Etiquettes, Qiyam & I\'tikaf',
         items: [
           {
-            headAr: 'آداب الصائم وسننه',
-            headEn: 'Etiquettes & Sunnahs',
-            bodyAr: 'السحور وتأخيره، وتعجيل الفطر عند غروب الشمس على رطبات أو تمر أو ماء، وحفظ اللسان عن اللغو والرفث، والإكثار من القرآن والصدقة وقيام الليل.',
-            bodyEn: 'Taking Suhur and delaying it, hastening Iftar at sunset with dates or water, guarding the tongue from idle/foul speech, and increasing Quran recitation, charity, and Qiyam.'
+            headAr: 'أحكام المريض والمسافر والحامل والشيخ الكبير',
+            headEn: 'The Sick, Traveler, Pregnant/Nursing & Elderly',
+            bodyAr: 'المريض مرضاً يُرجى برؤه والمسافر سفراً مباحاً يفطران ويقضيان أياماً أخر. والعاجز عجزاً دائماً لكبر سن أو مرض مزمن يفطر ويطعم عن كل يوم مسكيناً. والحامل والمرضع إذا خافتا على نفسيهما أو ولديهما أفطرتا وقضتا.',
+            bodyEn: 'Temporarily sick and travelers break fast and make up days later. Permanently unable (elderly/chronic illness) feed one poor person per day. Pregnant/nursing women fearing harm break fast and make it up.'
           },
           {
-            headAr: 'تحري ليلة القدر في العشر الأواخر',
-            headEn: 'Seeking Laylat al-Qadr',
-            bodyAr: 'الاجتهاد في العشر الأواخر من رمضان، وهي خير من ألف شهر، والدعاء المأثور: «اللهم إنك عفو تحب العفو فاعفُ عني».',
-            bodyEn: 'Striving in the last ten nights of Ramadan; Laylat al-Qadr is better than a thousand months, with the Sunnah du\'a: "Allahumma innaka \'Afuwwun tuhibbul-\'afwa fa\'fu \'anni."'
+            headAr: 'سنن الصيام والقيام والعشر الأواخر',
+            headEn: 'Sunnahs, Tarawih, I\'tikaf & Laylat al-Qadr',
+            bodyAr: 'يُسن السحور وتأخيره، وتعجيل الفطر على رطب أو تمر أو ماء، وحفظ اللسان («فإن سابّه أحد فليقل إني صائم»)، وصلاة التراويح مع الإمام، والاجتهاد في العشر الأواخر والاعتكاف في المسجد، وتحري ليلة القدر في الأوتار.',
+            bodyEn: 'Delaying Suhur, hastening Iftar with dates/water, guarding the tongue, praying Tarawih with the Imam, striving in the last 10 nights, I\'tikaf in the masjid, and seeking Laylat al-Qadr in the odd nights.'
           }
         ]
       }
@@ -286,60 +406,78 @@ export const PILLARS_DATA = [
     titleEn: '5th Pillar: Pilgrimage to the Sacred House (Hajj)',
     shortAr: 'قصد بيت الله الحرام لأداء المناسك في أشهر الحج لمن استطاع إليه سبيلاً مرةً في العمر.',
     shortEn: 'Journeying to the Sacred House in Makkah to perform the rites during the months of Hajj once in a lifetime for those who are able.',
-    bannerDescAr: 'الحج المبرور ليس له جزاء إلا الجنة، وهو مؤتمر التوحيد والتجرد والمساواة، يجب على المسلم المستطيع مرة واحدة في العمر على الفور عند جمهور أهل السنة.',
-    bannerDescEn: 'An accepted Hajj (Hajj Mabrur) has no reward less than Paradise. It is an annual gathering of Tawhid, humility, and unity, obligatory once in a lifetime for every able Muslim.',
+    bannerDescAr: 'حج بيت الله الحرام هو الركن الخامس من أركان الإسلام، يجب على المسلم المستطيع مرة واحدة في العمر. وهو مؤتمر التوحيد والتجرد والمساواة، وقد قال النبي ﷺ: «من حج فلم يرفث ولم يفسق رجع كيوم ولدته أمه» (متفق عليه).',
+    bannerDescEn: 'Pilgrimage to the Sacred House (Hajj) is the fifth pillar of Islam, obligatory once in a lifetime for every capable Muslim. The Prophet ﷺ said: "Whoever performs Hajj without obscenity or sin returns as pure as the day his mother bore him" (Bukhari & Muslim).',
     sections: [
       {
-        titleAr: 'شروط وجوب الحج والأنساك الثلاثة',
-        titleEn: 'Conditions & Three Types of Hajj',
+        titleAr: '1. حكم الحج وفضله وشروط وجوبه',
+        titleEn: '1. Ruling, Virtues & Conditions of Obligation',
         items: [
           {
-            headAr: 'شروط الوجوب',
-            headEn: 'Conditions of Obligation',
-            bodyAr: 'الإسلام، العقل، البلوغ، الحرية، والاستطاعة البدنية والمالية (الزاد والراحلة وأمن الطريق)، ووجود المحرم للمرأة عند جمهور العلماء.',
-            bodyEn: 'Islam, sanity, puberty, freedom, physical and financial capability (provisions, transport, safe route), and a Mahram for a woman according to the majority of scholars.'
+            headAr: 'الوجوب والفضل العظيم',
+            headEn: 'Obligation & Immense Reward',
+            bodyAr: 'يجب الحج على الفور عند تحقق الاستطاعة مرة واحدة في العمر، وما زاد فهو تطوع: ﴿وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا﴾، و«الحج المبرور ليس له جزاء إلا الجنة».',
+            bodyEn: 'Obligatory once in a lifetime upon capability (Quran 3:97); anything extra is voluntary. "An accepted Hajj has no reward less than Paradise."'
           },
           {
-            headAr: 'الأنساك الثلاثة (التمتع، القران، الإفراد)',
-            headEn: 'The Three Rites (Tamattu\', Qiran, Ifrad)',
-            bodyAr: '1) التمتع (أفضلها لمن لم يسق الهدي): عمرة في أشهر الحج ثم تحلل ثم إحرام بالحج. 2) القران: إحرام بالعمرة والحج معاً. 3) الإفراد: إحرام بالحج وحده.',
-            bodyEn: '1) Tamattu\' (best for non-sacrificial-animal bringers): Umrah first, exit Ihram, then Hajj. 2) Qiran: Umrah and Hajj together in one Ihram. 3) Ifrad: Hajj only.'
+            headAr: 'شروط وجوب الحج الخمسة',
+            headEn: 'Five Conditions of Obligation',
+            bodyAr: '1) الإسلام، 2) العقل، 3) البلوغ، 4) الحرية، 5) الاستطاعة (الصحة البدنية، والنفقة الكافية للذهاب والعودة، ونفقة من يعول، وأمن الطريق). ويُشترط للمرأة وجود المحرم في السفر عند جمهور أهل السنة.',
+            bodyEn: '1) Islam, 2) Sanity, 3) Puberty, 4) Freedom, 5) Capability (health, sufficient funds for travel and dependents, safe route). A woman requires a Mahram companion according to the majority.'
           }
         ]
       },
       {
-        titleAr: 'أركان الحج وواجباته',
-        titleEn: 'Pillars & Obligations of Hajj',
+        titleAr: '2. المواقيت ومحظورات الإحرام والأنساك',
+        titleEn: '2. Miqats, Ihram Prohibitions & Three Rites',
         items: [
           {
-            headAr: 'أركان الحج الأربعة (لا يصح الحج بدونها)',
-            headEn: 'Four Pillars of Hajj',
-            bodyAr: '1) الإحرام (نية الدخول في النسك)، 2) الوقوف بعرفة («الحج عرفة»)، 3) طواف الإفاضة، 4) السعي بين الصفا والمروة.',
-            bodyEn: '1) Ihram (entering the state of consecration), 2) Standing at Arafah ("Hajj is Arafah"), 3) Tawaf al-Ifadah, 4) Sa\'i between Safa and Marwah.'
+            headAr: 'المواقيت الزمانية والمكانية',
+            headEn: 'Temporal & Spatial Miqats',
+            bodyAr: 'المواقيت الزمانية للحج: شوال، ذو القعدة، وعشر ذي الحجة. والمواقيت المكانية خمسة: ذو الحليفة (لأهل المدينة)، الجحفة (لأهل الشام ومصر والمغرب)، قرن المنازل (لأهل نجد)، يلملم (لأهل اليمن)، وذات عرق (لأهل العراق والمشرق).',
+            bodyEn: 'Months of Hajj: Shawwal, Dhul-Qa\'dah, and 10 days of Dhul-Hijjah. Five spatial Miqats: Dhul-Hulayfah, al-Juhfah, Qarn al-Manazil, Yalamlam, and Dhat Irq.'
           },
           {
-            headAr: 'واجبات الحج السبعة (تُجبر بدم إذا تُركت)',
-            headEn: 'Seven Obligations of Hajj',
-            bodyAr: 'الإحرام من الميقات، الوقوف بعرفة إلى الغروب لمن وقف نهاراً، المبيت بمزدلفة، المبيت بمنى ليالي التشريق، رمي الجمار، الحلق أو التقصير، وطواف الوداع.',
-            bodyEn: 'Entering Ihram from the Miqat, staying at Arafah until sunset (if present by day), overnight stay at Muzdalifah, overnight stays at Mina, stoning the Jamarat, shaving/trimming hair, and Farewell Tawaf.'
+            headAr: 'محظورات الإحرام والأنساك الثلاثة',
+            headEn: 'Ihram Prohibitions & Three Types of Hajj',
+            bodyAr: 'محظورات الإحرام: قص الشعر والأظفار، التطيب، لبس المخيط للرجل، تغطية الرأس للرجل، النقاب والقفازين للمرأة، الصيد، وعقد النكاح والجماع. والأنساك: التمتع (أفضلها لمن لم يسق الهدي)، القران، والإفراد.',
+            bodyEn: 'Prohibitions: cutting hair/nails, perfume, stitched clothes/head-cover for men, niqab/gloves for women, hunting, marriage contracts, and intercourse. Types: Tamattu\' (best), Qiran, and Ifrad.'
           }
         ]
       },
       {
-        titleAr: 'ملخص أعمال الحج يومياً',
-        titleEn: 'Day-by-Day Summary of Hajj',
+        titleAr: '3. أركان الحج الأربعة وواجباته السبعة',
+        titleEn: '3. Four Pillars & Seven Obligations of Hajj',
         items: [
           {
-            headAr: 'من يوم التروية (8 ذي الحجة) إلى النحر (10 ذي الحجة)',
-            headEn: '8th to 10th Dhul-Hijjah',
-            bodyAr: 'اليوم 8 (التروية): الإحرام والمبيت بمنى. اليوم 9 (عرفة): الوقوف بعرفة والدعاء ثم المبيت بمزدلفة. اليوم 10 (النحر): رمي جمرة العقبة، النحر، الحلق، وطواف الإفاضة.',
-            bodyEn: '8th (Tarwiyah): Enter Ihram & stay at Mina. 9th (Arafah): Stand at Arafah in supplication, then stay overnight at Muzdalifah. 10th (Nahr): Stone Jamrat al-Aqabah, sacrifice, shave/trim, and perform Tawaf al-Ifadah.'
+            headAr: 'الأركان الأربعة (لا يصح الحج بدونها)',
+            headEn: 'Four Pillars (Essential for Validity)',
+            bodyAr: '1) الإحرام (نية الدخول في النسك)، 2) الوقوف بعرفة («الحج عرفة»)، 3) طواف الإفاضة (الزيارة)، 4) السعي بين الصفا والمروة سبعة أشواط. من ترك ركناً لم يتم حجه حتى يأتي به.',
+            bodyEn: '1) Ihram, 2) Standing at Arafah ("Hajj is Arafah"), 3) Tawaf al-Ifadah, 4) Sa\'i between Safa and Marwah (7 laps).'
           },
           {
-            headAr: 'أيام التشريق (11، 12، 13 ذي الحجة)',
-            headEn: 'Days of Tashriq (11th–13th Dhul-Hijjah)',
-            bodyAr: 'المبيت بمنى ورمي الجمرات الثلاث بعد الزوال (الصغرى ثم الوسطى ثم العقبة)، ويجوز التعجل في اليوم الثاني عشر قبل الغروب، ثم طواف الوداع عند مغادرة مكة.',
-            bodyEn: 'Stay overnight at Mina and stone all three Jamarat after noon; one may depart early on the 12th before sunset, concluding with the Farewell Tawaf before leaving Makkah.'
+            headAr: 'الواجبات السبعة (تُجبر بدم عند الترك)',
+            headEn: 'Seven Obligations (Compensated by Dam if Omitted)',
+            bodyAr: '1) الإحرام من الميقات، 2) الوقوف بعرفة إلى الغروب لمن وقف نهاراً، 3) المبيت بمزدلفة ليلة النحر، 4) المبيت بمنى ليالي التشريق، 5) رمي الجمار، 6) الحلق أو التقصير (والحلق للرجال أفضل)، 7) طواف الوداع عند مغادرة مكة.',
+            bodyEn: '1) Ihram from Miqat, 2) Staying at Arafah until sunset, 3) Overnight at Muzdalifah, 4) Overnight at Mina, 5) Stoning Jamarat, 6) Shaving/trimming hair, 7) Farewell Tawaf.'
+          }
+        ]
+      },
+      {
+        titleAr: '4. صفة مناسك الحج يوماً بيوم',
+        titleEn: '4. Day-by-Day Guide to Hajj Rites',
+        items: [
+          {
+            headAr: 'اليوم 8 (التروية) واليوم 9 (عرفة والمبيت بمزدلفة)',
+            headEn: '8th (Tarwiyah) & 9th (Arafah & Muzdalifah)',
+            bodyAr: 'في 8 ذي الحجة: يُحرم المتمتع بالحج من مكانه ويتوجه إلى منى فيصلي الظهر والعصر والمغرب والعشاء قصراً بلا جمع. في 9 ذي الحجة: يسير إلى عرفة بعد طلوع الشمس، ويصلي الظهر والعصر جمع تقديم قصراً، ويتفرغ للذكر والدعاء حتى الغروب، ثم ينفر إلى مزدلفة فيصلي المغرب والعشاء جمعاً ويبيت بها.',
+            bodyEn: '8th: Enter Ihram and stay at Mina praying shortened (uncombined) prayers. 9th: Proceed to Arafah, pray Dhuhr & Asr shortened and combined, supplicate until sunset, then move to Muzdalifah for Maghrib/Isha combined and overnight stay.'
+          },
+          {
+            headAr: 'اليوم 10 (النحر) وأيام التشريق (11–13) وطواف الوداع',
+            headEn: '10th (Nahr), Tashriq (11–13th) & Farewell Tawaf',
+            bodyAr: 'في 10 ذي الحجة: يصلي الفجر بمزدلفة، ثم يتوجه إلى منى فيرمي جمرة العقبة بسبع حصيات، ثم ينحر الهدي، ثم يحلق أو يقصر (التحلل الأول)، ثم يطوف طواف الإفاضة ويسعى (التحلل الأكبر). وفي أيام التشريق يبيت بمنى ويرمي الجمرات الثلاث بعد الزوال، ثم يطوف طواف الوداع قبل السفر.',
+            bodyEn: '10th: Pray Fajr at Muzdalifah, stone Jamrat al-Aqabah (7 pebbles), sacrifice, shave/trim (first release), then perform Tawaf al-Ifadah & Sa\'i (full release). Days 11–13: Stay at Mina and stone all 3 Jamarat after noon, ending with Farewell Tawaf.'
           }
         ]
       }
