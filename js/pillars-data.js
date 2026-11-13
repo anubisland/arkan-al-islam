@@ -486,6 +486,7 @@ export const PILLARS_DATA = [
 ];
 
 export const PROOFS_DATA = [
+  // --- SHAHADATAYN (6: 3 Quran + 3 Sunnah) ---
   {
     id: 'p1',
     pillar: 'shahada',
@@ -494,19 +495,19 @@ export const PROOFS_DATA = [
     textEn: '"So know, [O Muhammad], that there is no deity except Allah and ask forgiveness for your sin and for the believing men and believing women."',
     sourceAr: 'سورة محمد: الآية 19',
     sourceEn: 'Surah Muhammad: Verse 19',
-    benefitAr: 'تقديم العلم بالتوحيد على العمل، وهو دليل على أن العلم بمعنى «لا إله إلا الله» أول شروطها.',
-    benefitEn: 'Knowledge of Tawhid precedes action, proving that understanding "La ilaha illa Allah" is its first condition.'
+    benefitAr: 'تقديم العلم بالتوحيد على القول والعمل، وهو دليل على أن العلم بمعنى «لا إله إلا الله» نفياً وإثباتاً هو أول شروطها.',
+    benefitEn: 'Knowledge of Tawhid precedes speech and action, proving that understanding "La ilaha illa Allah" is its first condition.'
   },
   {
     id: 'p2',
     pillar: 'shahada',
-    type: 'sunnah',
-    textAr: '«مَنْ شَهِدَ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ... أَدْخَلَهُ اللَّهُ الْجَنَّةَ عَلَى مَا كَانَ مِنَ الْعَمَلِ»',
-    textEn: '"Whoever bears witness that there is no deity worthy of worship except Allah alone without partner, and that Muhammad is His slave and Messenger... Allah will admit him to Paradise regardless of his deeds."',
-    sourceAr: 'متفق عليه: البخاري (3435) ومسلم (28)',
-    sourceEn: 'Agreed Upon: al-Bukhari (3435) & Muslim (28)',
-    benefitAr: 'بيان فضل تحقيق الشهادتين بالعلم واليقين والعمل بمقتضاهما.',
-    benefitEn: 'Shows the immense virtue of fulfilling the two testimonies with certainty and adherence.'
+    type: 'quran',
+    textAr: '﴿وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ﴾',
+    textEn: '"And We certainly sent into every nation a messenger, [saying], Worship Allah and avoid Taghut (false deities)."',
+    sourceAr: 'سورة النحل: الآية 36',
+    sourceEn: 'Surah al-Nahl: Verse 36',
+    benefitAr: 'بيان أن دعوة جميع الأنبياء والرسل قامت على توحيد الألوهية: إثبات العبادة لله وحده واجتناب عبادة ما سواه.',
+    benefitEn: 'Demonstrates that every Prophet called to Tawhid al-Uluhiyyah: worshipping Allah alone and rejecting false deities.'
   },
   {
     id: 'p3',
@@ -516,88 +517,283 @@ export const PROOFS_DATA = [
     textEn: '"And whatever the Messenger has given you - take; and what he has forbidden you - refrain from."',
     sourceAr: 'سورة الحشر: الآية 7',
     sourceEn: 'Surah al-Hashr: Verse 7',
-    benefitAr: 'أصل في وجوب اتباع سنة النبي ﷺ وتحريم الابتداع في الدين.',
-    benefitEn: 'A foundational proof for the obligation of following the Sunnah of the Prophet ﷺ and avoiding innovation.'
+    benefitAr: 'أصل عظيم في تحقيق شهادة أن محمداً رسول الله ﷺ؛ بوجوب طاعته واتباع سنته وتحريم الابتداع في الدين.',
+    benefitEn: 'A foundational proof for testifying Muhammad ﷺ is the Messenger: obeying him, following his Sunnah, and avoiding innovation.'
   },
   {
     id: 'p4',
+    pillar: 'shahada',
+    type: 'sunnah',
+    textAr: '«مَنْ شَهِدَ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ... أَدْخَلَهُ اللَّهُ الْجَنَّةَ عَلَى مَا كَانَ مِنَ الْعَمَلِ»',
+    textEn: '"Whoever bears witness that there is no deity worthy of worship except Allah alone without partner, and that Muhammad is His slave and Messenger... Allah will admit him to Paradise regardless of his deeds."',
+    sourceAr: 'متفق عليه: البخاري (3435) ومسلم (28)',
+    sourceEn: 'Agreed Upon: al-Bukhari (3435) & Muslim (28)',
+    benefitAr: 'بيان فضل تحقيق الشهادتين بالعلم واليقين والصدق والعمل بمقتضاهما مع البراءة من الشرك.',
+    benefitEn: 'Shows the immense virtue of fulfilling the two testimonies with certainty, sincerity, and adherence.'
+  },
+  {
+    id: 'p5',
+    pillar: 'shahada',
+    type: 'sunnah',
+    textAr: '«فَإِنَّ اللَّهَ قَدْ حَرَّمَ عَلَى النَّارِ مَنْ قَالَ: لَا إِلَهَ إِلَّا اللَّهُ، يَبْتَغِي بِذَلِكَ وَجْهَ اللَّهِ»',
+    textEn: '"Indeed, Allah has forbidden the Fire for whoever says: La ilaha illa Allah, seeking thereby the Face of Allah."',
+    sourceAr: 'متفق عليه: البخاري (425) ومسلم (33)',
+    sourceEn: 'Agreed Upon: al-Bukhari (425) & Muslim (33)',
+    benefitAr: 'دليل على اشتراط الإخلاص («يبتغي بذلك وجه الله») لقبول كلمة التوحيد ونفعها لصاحبها.',
+    benefitEn: 'Proves that sincerity ("seeking the Face of Allah") is essential for the testimony of Tawhid to avail a person.'
+  },
+  {
+    id: 'p6',
+    pillar: 'shahada',
+    type: 'sunnah',
+    textAr: '«مَنْ أَحْدَثَ فِي أَمْرِنَا هَذَا مَا لَيْسَ مِنْهُ فَهُوَ رَدٌّ»',
+    textEn: '"Whoever introduces into this affair of ours (Islam) that which is not from it, it will be rejected."',
+    sourceAr: 'متفق عليه: البخاري (2697) ومسلم (1718)',
+    sourceEn: 'Agreed Upon: al-Bukhari (2697) & Muslim (1718)',
+    benefitAr: 'ميزان الأعمال الظاهرة في منهاج أهل السنة؛ فكل عبادة لم يشرعها النبي ﷺ فهي مردودة غير مقبولة.',
+    benefitEn: 'The criterion for outward deeds in Ahl al-Sunnah: any act of worship not legislated by the Prophet ﷺ is rejected.'
+  },
+
+  // --- SALAH (6: 3 Quran + 3 Sunnah) ---
+  {
+    id: 'p7',
     pillar: 'salah',
     type: 'quran',
     textAr: '﴿حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلَاةِ الْوُسْطَىٰ وَقُومُوا لِلَّهِ قَانِتِينَ﴾',
     textEn: '"Maintain with care the [obligatory] prayers and [in particular] the middle prayer and stand before Allah, devoutly obedient."',
     sourceAr: 'سورة البقرة: الآية 238',
     sourceEn: 'Surah al-Baqarah: Verse 238',
-    benefitAr: 'الأمر بالمحافظة على الصلوات الخمس في أوقاتها بخشوع وطمأنينة.',
-    benefitEn: 'Commands guarding the five daily prayers at their prescribed times with humility.'
+    benefitAr: 'الأمر بالمحافظة على الصلوات الخمس في أوقاتها بخشوع وطمأنينة، والوسطى هي صلاة العصر على الصحيح.',
+    benefitEn: 'Commands guarding the five daily prayers on time with humility; the middle prayer is Asr according to authentic Sunnah.'
   },
   {
-    id: 'p5',
+    id: 'p8',
+    pillar: 'salah',
+    type: 'quran',
+    textAr: '﴿إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا﴾',
+    textEn: '"Indeed, prayer has been decreed upon the believers a decree of specified times."',
+    sourceAr: 'سورة النساء: الآية 103',
+    sourceEn: 'Surah al-Nisa: Verse 103',
+    benefitAr: 'دليل على وجوب أداء كل صلاة في وقتها المحدد شرعاً وتحريم تأخيرها عن وقتها بغير عذر.',
+    benefitEn: 'Establishes that each prayer has a fixed time window and delaying it past its time without excuse is forbidden.'
+  },
+  {
+    id: 'p9',
+    pillar: 'salah',
+    type: 'quran',
+    textAr: '﴿وَأَقِمِ الصَّلَاةَ ۖ إِنَّ الصَّلَاةَ تَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ ۗ وَلَذِكْرُ اللَّهِ أَكْبَرُ﴾',
+    textEn: '"And establish prayer. Indeed, prayer prohibits immorality and wrongdoing, and the remembrance of Allah is greater."',
+    sourceAr: 'سورة العنكبوت: الآية 45',
+    sourceEn: 'Surah al-\'Ankabut: Verse 45',
+    benefitAr: 'بيان الأثر التربوي لإقامة الصلاة بخشوعها؛ فهي تزكي النفس وتردعها عن الفواحش والمنكرات.',
+    benefitEn: 'Highlights the moral and spiritual effect of establishing Salah properly: it shields the believer from sin.'
+  },
+  {
+    id: 'p10',
     pillar: 'salah',
     type: 'sunnah',
     textAr: '«رَأْسُ الْأَمْرِ الْإِسْلَامُ، وَعَمُودُهُ الصَّلَاةُ، وَذِرْوَةُ سَنَامِهِ الْجِهَادُ»',
     textEn: '"The head of the matter is Islam, its pillar is the prayer, and its highest peak is Jihad."',
     sourceAr: 'رواه الترمذي (2616) وصححه الألباني',
     sourceEn: 'Narrated by al-Tirmidhi (2616), authenticated by al-Albani',
-    benefitAr: 'الصلاة هي العمود الذي يقوم عليه بناء الإسلام، وبانهدامه يختل البناء.',
-    benefitEn: 'Salah is the central pillar holding up the structure of Islam.'
+    benefitAr: 'الصلاة هي العمود الذي يقوم عليه بناء الإسلام، وبانهدامه يختل البناء كله.',
+    benefitEn: 'Salah is the central pillar supporting the entire structure of Islam.'
   },
   {
-    id: 'p6',
+    id: 'p11',
+    pillar: 'salah',
+    type: 'sunnah',
+    textAr: '«صَلُّوا كَمَا رَأَيْتُمُونِي أُصَلِّي»',
+    textEn: '"Pray as you have seen me praying."',
+    sourceAr: 'رواه البخاري (631)',
+    sourceEn: 'Narrated by al-Bukhari (631)',
+    benefitAr: 'أصل عظيم في وجوب التزام صفة صلاة النبي ﷺ في أركانها وواجباتها وسننها وأذكارها.',
+    benefitEn: 'A foundational command to follow the exact prophetic method in all pillars, obligations, and Sunnahs of Salah.'
+  },
+  {
+    id: 'p12',
+    pillar: 'salah',
+    type: 'sunnah',
+    textAr: '«إِنَّ بَيْنَ الرَّجُلِ وَبَيْنَ الشِّرْكِ وَالْكُفْرِ تَرْكَ الصَّلَاةِ»',
+    textEn: '"Between a man and Shirk and Kufr stands his abandonment of prayer."',
+    sourceAr: 'رواه مسلم (82)',
+    sourceEn: 'Narrated by Muslim (82)',
+    benefitAr: 'تحذير شديد من ترك الصلاة أو التهاون بها، وبيان عظيم خطر إضاعتها في الشرع.',
+    benefitEn: 'A stern warning against abandoning or neglecting Salah, showing the gravity of forsaking it.'
+  },
+
+  // --- ZAKAH (6: 3 Quran + 3 Sunnah) ---
+  {
+    id: 'p13',
     pillar: 'zakah',
     type: 'quran',
     textAr: '﴿وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ﴾',
     textEn: '"And establish prayer and give Zakah and bow with those who bow [in worship and obedience]."',
     sourceAr: 'سورة البقرة: الآية 43',
     sourceEn: 'Surah al-Baqarah: Verse 43',
-    benefitAr: 'اقتران الزكاة بالصلاة يدل على عظم مكانتها وكونها ركناً لا ينفك عن نظام الإسلام.',
+    benefitAr: 'اقتران الزكاة بالصلاة في القرآن يدل على عظم مكانتها وكونها ركناً لا ينفك عن نظام الإسلام.',
     benefitEn: 'Pairing Zakah with Salah highlights its high rank as an inseparable pillar of Islam.'
   },
   {
-    id: 'p7',
+    id: 'p14',
+    pillar: 'zakah',
+    type: 'quran',
+    textAr: '﴿خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ﴾',
+    textEn: '"Take, [O Muhammad], from their wealth a charity by which you purify them and cause them increase, and invoke [Allah\'s blessings] upon them."',
+    sourceAr: 'سورة التوبة: الآية 103',
+    sourceEn: 'Surah al-Tawbah: Verse 103',
+    benefitAr: 'بيان الحكمة من الزكاة؛ فهي تطهر المزكي من دنس الشح والبخل وتزكي ماله ونفسه.',
+    benefitEn: 'Explains the wisdom of Zakah: it purifies the giver from greed and blesses both soul and wealth.'
+  },
+  {
+    id: 'p15',
     pillar: 'zakah',
     type: 'quran',
     textAr: '﴿إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا وَالْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِي الرِّقَابِ وَالْغَارِمِينَ وَفِي سَبِيلِ اللَّهِ وَابْنِ السَّبِيلِ﴾',
     textEn: '"Zakah expenditures are only for the poor and for the needy and for those employed to collect [zakah] and for bringing hearts together [for Islam] and for freeing captives and for those in debt and for the cause of Allah and for the [stranded] traveler."',
     sourceAr: 'سورة التوبة: الآية 60',
     sourceEn: 'Surah al-Tawbah: Verse 60',
-    benefitAr: 'تحديد مصارف الزكاة الثمانية حصراً بنص القرآن الكريم.',
-    benefitEn: 'Exclusively defines the eight eligible categories of Zakah recipients.'
+    benefitAr: 'تحديد مصارف الزكاة الثمانية حصراً بنص القرآن الكريم، فلا تُصرف في غيرها.',
+    benefitEn: 'Exclusively defines the eight eligible categories of Zakah recipients; it cannot be diverted elsewhere.'
   },
   {
-    id: 'p8',
+    id: 'p16',
+    pillar: 'zakah',
+    type: 'sunnah',
+    textAr: '«فَأَعْلِمْهُمْ أَنَّ اللَّهَ افْتَرَضَ عَلَيْهِمْ صَدَقَةً فِي أَمْوَالِهِمْ تُؤْخَذُ مِنْ أَغْنِيَائِهِمْ وَتُرَدُّ عَلَى فُقَرَائِهِمْ»',
+    textEn: '"Inform them that Allah has made obligatory upon them a charity in their wealth, to be taken from their rich and returned to their poor."',
+    sourceAr: 'متفق عليه: البخاري (1395) ومسلم (19) من حديث معاذ رضي الله عنه',
+    sourceEn: 'Agreed Upon: al-Bukhari (1395) & Muslim (19)',
+    benefitAr: 'تقرير مبدأ التكافل الاجتماعي في الزكاة وأن الأولى صرفها في فقراء البلد الذي فيه المال.',
+    benefitEn: 'Establishes social solidarity and the principle of distributing Zakah locally to the poor first.'
+  },
+  {
+    id: 'p17',
+    pillar: 'zakah',
+    type: 'sunnah',
+    textAr: '«لَيْسَ فِيمَا دُونَ خَمْسِ أَوْسُقٍ صَدَقَةٌ، وَلَا فِيمَا دُونَ خَمْسِ ذَوْدٍ صَدَقَةٌ، وَلَا فِيمَا دُونَ خَمْسِ أَوَاقٍ صَدَقَةٌ»',
+    textEn: '"There is no Zakah on less than five Awsuq (of crops), nor on less than five camels, nor on less than five Awaq (of silver)."',
+    sourceAr: 'متفق عليه: البخاري (1405) ومسلم (979)',
+    sourceEn: 'Agreed Upon: al-Bukhari (1405) & Muslim (979)',
+    benefitAr: 'أصل في اشتراط بلوغ النصاب الشرعي لوجوب الزكاة في الزروع والأنعام والنقدين.',
+    benefitEn: 'Foundational proof requiring wealth to reach the specified Nisab threshold before Zakah becomes due.'
+  },
+  {
+    id: 'p18',
+    pillar: 'zakah',
+    type: 'sunnah',
+    textAr: '«فَرَضَ رَسُولُ اللَّهِ ﷺ زَكَاةَ الْفِطْرِ صَاعًا مِنْ تَمْرٍ أَوْ صَاعًا مِنْ شَعِيرٍ عَلَى الْعَبْدِ وَالْحُرِّ وَالذَّكَرِ وَالْأُنْثَى وَالصَّغِيرِ وَالْكَبِيرِ مِنَ الْمُسْلِمِينَ»',
+    textEn: '"The Messenger of Allah ﷺ enjoined Zakat al-Fitr: one Sa\' of dates or barley on every slave and free person, male and female, young and old among the Muslims."',
+    sourceAr: 'متفق عليه: البخاري (1503) ومسلم (984)',
+    sourceEn: 'Agreed Upon: al-Bukhari (1503) & Muslim (984)',
+    benefitAr: 'دليل على فرضية زكاة الفطر على جميع المسلمين ومقدارها صاع من غالب قوت البلد قبل صلاة العيد.',
+    benefitEn: 'Establishes the obligation of Zakat al-Fitr on every Muslim, measured as one Sa\' of staple food before Eid prayer.'
+  },
+
+  // --- SAWM (6: 3 Quran + 3 Sunnah) ---
+  {
+    id: 'p19',
     pillar: 'sawm',
     type: 'quran',
     textAr: '﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ﴾',
     textEn: '"O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous."',
     sourceAr: 'سورة البقرة: الآية 183',
     sourceEn: 'Surah al-Baqarah: Verse 183',
-    benefitAr: 'بيان فرضية الصيام والحكمة الكبرى منه وهي تحقيق التقوى.',
-    benefitEn: 'Establishes the obligation of fasting and its ultimate wisdom: attaining Taqwa.'
+    benefitAr: 'بيان فرضية الصيام والحكمة الكبرى منه وهي تحقيق التقوى ومراقبة الله في السر والعلن.',
+    benefitEn: 'Establishes the obligation of fasting and its ultimate wisdom: attaining Taqwa and God-consciousness.'
   },
   {
-    id: 'p9',
+    id: 'p20',
+    pillar: 'sawm',
+    type: 'quran',
+    textAr: '﴿شَهْرُ رَمَضَانَ الَّذِي أُنزِلَ فِيهِ الْقُرْآنُ هُدًى لِّلنَّاسِ وَبَيِّنَاتٍ مِّنَ الْهُدَىٰ وَالْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ﴾',
+    textEn: '"The month of Ramadan [is that] in which was revealed the Quran, a guidance for the people... So whoever sights [the new moon of] the month, let him fast it."',
+    sourceAr: 'سورة البقرة: الآية 185',
+    sourceEn: 'Surah al-Baqarah: Verse 185',
+    benefitAr: 'تعيين شهر رمضان للصيام، وبيان رخصة الفطر للمريض والمسافر مع وجوب القضاء في الآية نفسها.',
+    benefitEn: 'Specifies Ramadan for fasting and establishes the concession for the sick and travelers to make up missed days.'
+  },
+  {
+    id: 'p21',
+    pillar: 'sawm',
+    type: 'quran',
+    textAr: '﴿وَكُلُوا وَاشْرَبُوا حَتَّىٰ يَتَبَيَّنَ لَكُمُ الْخَيْطُ الْأَبْيَضُ مِنَ الْخَيْطِ الْأَسْوَدِ مِنَ الْفَجْرِ ۖ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ﴾',
+    textEn: '"And eat and drink until the white thread of dawn becomes distinct to you from the black thread [of night]. Then complete the fast until the sunset."',
+    sourceAr: 'سورة البقرة: الآية 187',
+    sourceEn: 'Surah al-Baqarah: Verse 187',
+    benefitAr: 'تحديد زمن الصيام بدقة من طلوع الفجر الصادق إلى غروب الشمس، وإباحة الأكل إلى طلوع الفجر.',
+    benefitEn: 'Precisely defines the daily fasting window from true Fajr until sunset.'
+  },
+  {
+    id: 'p22',
     pillar: 'sawm',
     type: 'sunnah',
     textAr: '«مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ»',
     textEn: '"Whoever fasts Ramadan out of faith and seeking reward, his previous sins will be forgiven."',
     sourceAr: 'متفق عليه: البخاري (38) ومسلم (760)',
     sourceEn: 'Agreed Upon: al-Bukhari (38) & Muslim (760)',
-    benefitAr: 'فضل الإخلاص والاحتساب في صيام رمضان وأنه سبب لمغفرة الذنوب.',
+    benefitAr: 'فضل الإيمان والاحتساب في صيام رمضان وأنه سبب لمغفرة الذنوب.',
     benefitEn: 'Shows the reward of fasting Ramadan with sincere faith and hope for Allah\'s reward.'
   },
   {
-    id: 'p10',
-    pillar: 'hajj',
-    type: 'quran',
-    textAr: '﴿وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا﴾',
-    textEn: '"And [due] to Allah from the people is a pilgrimage to the House - for whoever is able to find thereto a way."',
-    sourceAr: 'سورة آل عمران: الآية 97',
-    sourceEn: 'Surah Ali \'Imran: Verse 97',
-    benefitAr: 'وجوب الحج على المسلم المستطيع مرة في العمر.',
-    benefitEn: 'Establishes the obligation of Hajj for every capable Muslim.'
+    id: 'p23',
+    pillar: 'sawm',
+    type: 'sunnah',
+    textAr: '«كُلُّ عَمَلِ ابْنِ آدَمَ لَهُ إِلَّا الصِّيَامَ، فَإِنَّهُ لِي وَأَنَا أَجْزِي بِهِ»',
+    textEn: '"Every deed of the son of Adam is for him except fasting; it is for Me and I shall reward it."',
+    sourceAr: 'متفق عليه: البخاري (1904) ومسلم (1151) — حديث قدسي',
+    sourceEn: 'Agreed Upon: al-Bukhari (1904) & Muslim (1151) — Hadith Qudsi',
+    benefitAr: 'بيان شرف الصيام وعظم أجره عند الله لأنه عبادة سرية خالصة يبتعد فيها العبد عن الرياء.',
+    benefitEn: 'Highlights the unmatched honor of fasting as a hidden act of devotion between the servant and Allah.'
   },
   {
-    id: 'p11',
+    id: 'p24',
+    pillar: 'sawm',
+    type: 'sunnah',
+    textAr: '«مَنْ نَسِيَ وَهُوَ صَائِمٌ فَأَكَلَ أَوْ شَرِبَ فَلْيُتِمَّ صَوْمَهُ، فَإِنَّمَا أَطْعَمَهُ اللَّهُ وَسَقَاهُ»',
+    textEn: '"Whoever forgets while fasting and eats or drinks, let him complete his fast, for it is Allah who fed him and gave him drink."',
+    sourceAr: 'متفق عليه: البخاري (1933) ومسلم (1155)',
+    sourceEn: 'Agreed Upon: al-Bukhari (1933) & Muslim (1155)',
+    benefitAr: 'تيسير الشريعة ورفع الحرج؛ فمن أكل أو شرب ناسياً فصومه صحيح ولا قضاء عليه.',
+    benefitEn: 'Demonstrates Islamic ease: eating or drinking out of forgetfulness does not break the fast.'
+  },
+
+  // --- HAJJ (6: 3 Quran + 3 Sunnah) ---
+  {
+    id: 'p25',
+    pillar: 'hajj',
+    type: 'quran',
+    textAr: '﴿وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ اللَّهَ غَنِيٌّ عَنِ الْعَالَمِينَ﴾',
+    textEn: '"And [due] to Allah from the people is a pilgrimage to the House - for whoever is able to find thereto a way. But whoever disbelieves - then indeed, Allah is free from need of the worlds."',
+    sourceAr: 'سورة آل عمران: الآية 97',
+    sourceEn: 'Surah Ali \'Imran: Verse 97',
+    benefitAr: 'وجوب الحج على المسلم المستطيع، واشتراط الاستطاعة البدنية والمالية وأمن الطريق.',
+    benefitEn: 'Establishes the obligation of Hajj for every Muslim who has physical, financial, and safe-travel capability.'
+  },
+  {
+    id: 'p26',
+    pillar: 'hajj',
+    type: 'quran',
+    textAr: '﴿الْحَجُّ أَشْهُرٌ مَّعْلُومَاتٌ ۚ فَمَن فَرَضَ فِيهِنَّ الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ﴾',
+    textEn: '"Hajj is [during] well-known months, so whoever has made Hajj obligatory upon himself therein [by entering Ihram], there is [to be for him] no sexual relations and no disobedience and no disputing during Hajj."',
+    sourceAr: 'سورة البقرة: الآية 197',
+    sourceEn: 'Surah al-Baqarah: Verse 197',
+    benefitAr: 'تحديد المواقيت الزمانية للحج (شوال وذو القعدة وعشر ذي الحجة) وآداب المحرم.',
+    benefitEn: 'Defines the months of Hajj and the ethical discipline required of a pilgrim in Ihram.'
+  },
+  {
+    id: 'p27',
+    pillar: 'hajj',
+    type: 'quran',
+    textAr: '﴿ثُمَّ أَفِيضُوا مِنْ حَيْثُ أَفَاضَ النَّاسُ وَاسْتَغْفِرُوا اللَّهَ ۚ إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ﴾',
+    textEn: '"Then depart from the place from where [all] the people depart and ask forgiveness of Allah. Indeed, Allah is Forgiving and Merciful."',
+    sourceAr: 'سورة البقرة: الآية 199',
+    sourceEn: 'Surah al-Baqarah: Verse 199',
+    benefitAr: 'وجوب الوقوف بعرفة لجميع الحجاج والإفاضة منها إلى مزدلفة على المساواة دون تمييز.',
+    benefitEn: 'Commands all pilgrims to stand at Arafah and depart from it to Muzdalifah equally.'
+  },
+  {
+    id: 'p28',
     pillar: 'hajj',
     type: 'sunnah',
     textAr: '«الْعُمْرَةُ إِلَى الْعُمْرَةِ كَفَّارَةٌ لِمَا بَيْنَهُمَا، وَالْحَجُّ الْمَبْرُورُ لَيْسَ لَهُ جَزَاءٌ إِلَّا الْجَنَّةُ»',
@@ -606,6 +802,28 @@ export const PROOFS_DATA = [
     sourceEn: 'Agreed Upon: al-Bukhari (1773) & Muslim (1349)',
     benefitAr: 'الترغيب في إخلاص الحج واجتناب الرفث والفسوق والجدال لينال الحاج وصف المبرور.',
     benefitEn: 'Encourages sincerity and righteous conduct during Hajj to attain Hajj Mabrur.'
+  },
+  {
+    id: 'p29',
+    pillar: 'hajj',
+    type: 'sunnah',
+    textAr: '«الْحَجُّ عَرَفَةُ»',
+    textEn: '"Hajj is Arafah."',
+    sourceAr: 'رواه الترمذي (889) والنسائي (3016) وصححه الألباني',
+    sourceEn: 'Narrated by al-Tirmidhi (889) & al-Nasa\'i (3016), authenticated by al-Albani',
+    benefitAr: 'بيان أن الوقوف بعرفة هو الركن الأعظم في الحج؛ فمن أدركه فقد أدرك الحج، ومن فاته فاته الحج.',
+    benefitEn: 'Proves that standing at Arafah is the greatest pillar of Hajj; whoever misses it misses Hajj.'
+  },
+  {
+    id: 'p30',
+    pillar: 'hajj',
+    type: 'sunnah',
+    textAr: '«لِتَأْخُذُوا مَنَاسِكَكُمْ، فَإِنِّي لَا أَدْرِي لَعَلِّي لَا أَحُجُّ بَعْدَ حَجَّتِي هَذِهِ»',
+    textEn: '"Learn your Hajj rites from me, for I do not know whether I will perform Hajj after this Hajj of mine."',
+    sourceAr: 'رواه مسلم (1297)',
+    sourceEn: 'Narrated by Muslim (1297)',
+    benefitAr: 'وجوب أداء مناسك الحج والعمرة على وفق هدي النبي ﷺ في حجة الوداع دون ابتداع.',
+    benefitEn: 'Obligates performing Hajj and Umrah rites strictly according to the Prophet\'s ﷺ example.'
   }
 ];
 
