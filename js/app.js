@@ -8,6 +8,7 @@ import {
 import { TRANSLATIONS } from './i18n.js';
 
 const STORAGE_KEY = 'anubisland_arkan_state_v1';
+const QUIZ_SESSION_SIZE = 15;
 
 let state = {
   lang: 'ar',
@@ -18,16 +19,43 @@ let state = {
   activePillarId: 'shahada',
   studiedPillars: [],
   checkedItems: [],
-  bestQuizScore: 0
+  bestQuizScore: 0,
+  lastQuizIds: []
 };
 
 let quizState = {
+  questions: [],
   index: 0,
   score: 0,
   answered: false,
   selectedIdx: null,
   finished: false
 };
+
+function shuffleArray(arr) {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function startNewQuizSession() {
+  const unseen = shuffleArray(QUIZ_DATA.filter((q) => !state.lastQuizIds.includes(q.id)));
+  const seen = shuffleArray(QUIZ_DATA.filter((q) => state.lastQuizIds.includes(q.id)));
+  const selected = [...unseen, ...seen].slice(0, QUIZ_SESSION_SIZE);
+  state.lastQuizIds = selected.map((q) => q.id);
+  saveState();
+  quizState = {
+    questions: selected,
+    index: 0,
+    score: 0,
+    answered: false,
+    selectedIdx: null,
+    finished: false
+  };
+}
 
 const el = (id) => document.getElementById(id);
 
@@ -98,7 +126,7 @@ function switchView(viewName) {
 
 function renderKPIs() {
   el('kpiStudied').textContent = `${state.studiedPillars.length} / 5`;
-  el('kpiBestScore').textContent = `${state.bestQuizScore} / ${QUIZ_DATA.length}`;
+  el('kpiBestScore').textContent = `${state.bestQuizScore} / ${QUIZ_SESSION_SIZE}`;
   el('kpiChecklist').textContent = `${state.checkedItems.length} / ${CHECKLIST_DATA.length}`;
 }
 
@@ -255,13 +283,17 @@ function renderProofs() {
 function renderQuiz() {
   const t = TRANSLATIONS[state.lang];
   const box = el('quizContainer');
+  if (!quizState.questions.length) {
+    startNewQuizSession();
+  }
+  const total = quizState.questions.length;
 
   if (quizState.finished) {
-    const pct = Math.round((quizState.score / QUIZ_DATA.length) * 100);
+    const pct = Math.round((quizState.score / total) * 100);
     box.innerHTML = `
       <div style="text-align:center; padding: 16px 0;">
         <div style="font-size: 3rem; margin-bottom: 10px;">🏆</div>
-        <h3>${t.quizScoreTitle}: ${quizState.score} / ${QUIZ_DATA.length} (${pct}%)</h3>
+        <h3>${t.quizScoreTitle}: ${quizState.score} / ${total} (${pct}%)</h3>
         <div class="quiz-progress-bar" style="max-width:420px; margin: 16px auto;">
           <div class="quiz-progress-fill" style="width:${pct}%"></div>
         </div>
@@ -269,19 +301,19 @@ function renderQuiz() {
       </div>
     `;
     el('btnRestartQuiz').addEventListener('click', () => {
-      quizState = { index: 0, score: 0, answered: false, selectedIdx: null, finished: false };
+      startNewQuizSession();
       renderQuiz();
     });
     return;
   }
 
-  const q = QUIZ_DATA[quizState.index];
-  const progressPct = Math.round(((quizState.index + (quizState.answered ? 1 : 0)) / QUIZ_DATA.length) * 100);
+  const q = quizState.questions[quizState.index];
+  const progressPct = Math.round(((quizState.index + (quizState.answered ? 1 : 0)) / total) * 100);
   const opts = state.lang === 'ar' ? q.optsAr : q.optsEn;
 
   box.innerHTML = `
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-      <strong>${state.lang === 'ar' ? `السؤال ${quizState.index + 1} من ${QUIZ_DATA.length}` : `Question ${quizState.index + 1} of ${QUIZ_DATA.length}`}</strong>
+      <strong>${state.lang === 'ar' ? `السؤال ${quizState.index + 1} من ${total}` : `Question ${quizState.index + 1} of ${total}`}</strong>
       <span>${state.lang === 'ar' ? `النقاط: ${quizState.score}` : `Score: ${quizState.score}`}</span>
     </div>
     <div class="quiz-progress-bar">
@@ -308,7 +340,7 @@ function renderQuiz() {
       <button type="button" id="btnQuizReset" class="btn-outline">${t.quizRestart}</button>
       ${quizState.answered ? `
         <button type="button" id="btnQuizNext" class="btn-primary">
-          ${quizState.index + 1 < QUIZ_DATA.length ? t.quizNext : t.quizFinish}
+          ${quizState.index + 1 < total ? t.quizNext : t.quizFinish}
         </button>
       ` : ''}
     </div>
@@ -333,13 +365,13 @@ function renderQuiz() {
   });
 
   el('btnQuizReset').addEventListener('click', () => {
-    quizState = { index: 0, score: 0, answered: false, selectedIdx: null, finished: false };
+    startNewQuizSession();
     renderQuiz();
   });
 
   if (el('btnQuizNext')) {
     el('btnQuizNext').addEventListener('click', () => {
-      if (quizState.index + 1 < QUIZ_DATA.length) {
+      if (quizState.index + 1 < total) {
         quizState.index += 1;
         quizState.answered = false;
         quizState.selectedIdx = null;

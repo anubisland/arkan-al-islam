@@ -472,7 +472,9 @@ export const PROOFS_DATA = [
 ];
 
 export const QUIZ_DATA = [
+  // --- SHAHADATAYN (9) ---
   {
+    id: 'q1',
     pillar: 'shahada',
     qAr: 'ما هما ركنا كلمة التوحيد «لا إله إلا الله»؟',
     qEn: 'What are the two pillars of the testimony "La ilaha illa Allah"?',
@@ -483,6 +485,7 @@ export const QUIZ_DATA = [
     expEn: 'Its two pillars are Negation ("La ilaha": rejecting worship of anything besides Allah) and Affirmation ("illa Allah": affirming worship for Allah alone).'
   },
   {
+    id: 'q2',
     pillar: 'shahada',
     qAr: 'ما عقيدة أهل السنة والجماعة في تعريف الإيمان؟',
     qEn: 'What is the belief of Ahl al-Sunnah wa al-Jama\'ah regarding Iman?',
@@ -493,6 +496,7 @@ export const QUIZ_DATA = [
     expEn: 'Ahl al-Sunnah unanimously affirm that Iman is belief, speech, and action, increasing with obedience and decreasing with sin.'
   },
   {
+    id: 'q3',
     pillar: 'shahada',
     qAr: 'من مقتضيات شهادة أن محمداً رسول الله ﷺ:',
     qEn: 'Which of the following is required by testifying that Muhammad ﷺ is the Messenger of Allah?',
@@ -503,6 +507,75 @@ export const QUIZ_DATA = [
     expEn: 'It requires obeying his commands, believing his reports, avoiding his prohibitions, and worshipping Allah only as he legislated.'
   },
   {
+    id: 'q4',
+    pillar: 'shahada',
+    qAr: 'ما المعنى الصحيح لـ «لا إله إلا الله»؟',
+    qEn: 'What is the true meaning of "La ilaha illa Allah"?',
+    optsAr: ['لا خالق إلا الله فقط', 'لا رازق إلا الله فقط', 'لا معبود بحق إلا الله', 'لا موجود إلا الله'],
+    optsEn: ['No creator except Allah only', 'No provider except Allah only', 'None has the right to be worshipped in truth except Allah', 'Nothing exists except Allah'],
+    correct: 2,
+    expAr: 'تعني «لا معبود بحق إلا الله»؛ لأن مشركي قريش كانوا يقرون بالربوبية ومع ذلك لم يُدخلهم ذلك في الإسلام حتى يفردوا الله بالعبادة.',
+    expEn: 'It means none has the right to be worshipped in truth except Allah; affirming Lordship alone without singling Him out in worship is insufficient.'
+  },
+  {
+    id: 'q5',
+    pillar: 'shahada',
+    qAr: 'أيُّ مما يلي يُعد من شروط «لا إله إلا الله» السبعة؟',
+    qEn: 'Which of the following is among the seven conditions of "La ilaha illa Allah"?',
+    optsAr: ['العلم واليقين والإخلاص والصدق والمحبة والقبول والانقياد', 'حفظ القرآن كاملاً', 'الهجرة إلى المدينة', 'صيام التطوع'],
+    optsEn: ['Knowledge, certainty, sincerity, truthfulness, love, acceptance, and submission', 'Memorizing the entire Quran', 'Migrating to Madinah', 'Voluntary fasting'],
+    correct: 0,
+    expAr: 'شروط لا إله إلا الله السبعة هي: العلم، اليقين، القبول، الانقياد، الصدق، الإخلاص، والمحبة.',
+    expEn: 'The seven conditions are Knowledge, Certainty, Acceptance, Submission, Truthfulness, Sincerity, and Love.'
+  },
+  {
+    id: 'q6',
+    pillar: 'shahada',
+    qAr: 'ما شرطا قبول العمل الصالح عند الله تعالى؟',
+    qEn: 'What are the two conditions for any righteous deed to be accepted by Allah?',
+    optsAr: ['الكثرة والسرعة', 'الإخلاص لله والمتابعة لرسول الله ﷺ', 'الشهرة والعلانية', 'الاجتهاد الفردي ولو بغير دليل'],
+    optsEn: ['Abundance and speed', 'Sincerity to Allah and following the Sunnah of the Prophet ﷺ', 'Fame and publicity', 'Personal effort without textual proof'],
+    correct: 1,
+    expAr: 'لا يُقبل العمل إلا بشرطين: الإخلاص لله (تحقيقاً لشهادة أن لا إله إلا الله) والمتابعة للنبي ﷺ (تحقيقاً لشهادة أن محمداً رسول الله).',
+    expEn: 'A deed is only accepted with Ikhlas (sincerity to Allah) and Mutaba\'ah (following the Prophet ﷺ).'
+  },
+  {
+    id: 'q7',
+    pillar: 'shahada',
+    qAr: 'ما حكم صرف شيء من العبادة كالدعاء أو الذبح لغير الله تعالى؟',
+    qEn: 'What is the ruling on directing any act of worship like supplication or sacrifice to other than Allah?',
+    optsAr: ['مكروه تنزيهاً', 'شرك أكبر يناقض التوحيد', 'جائز للتبرك', 'مباح عند الضرورة'],
+    optsEn: ['Slightly disliked', 'Major Shirk that nullifies Tawhid', 'Permissible for blessing', 'Permissible in necessity'],
+    correct: 1,
+    expAr: 'صرف أي نوع من أنواع العبادة لغير الله كالدعاء أو النذر أو الذبح شرك أكبر يناقض أصل التوحيد.',
+    expEn: 'Directing any act of worship to other than Allah is major Shirk, which contradicts the foundation of Tawhid.'
+  },
+  {
+    id: 'q8',
+    pillar: 'shahada',
+    qAr: 'بأي شيء يُفهم الكتاب والسنة عند أهل السنة والجماعة؟',
+    qEn: 'According to Ahl al-Sunnah wa al-Jama\'ah, upon whose understanding are the Quran and Sunnah interpreted?',
+    optsAr: ['بالرأي المجرد', 'بفهم السلف الصالح من الصحابة والتابعين', 'بالتأويل الباطني', 'بالأحلام والمنامات'],
+    optsEn: ['Pure personal opinion', 'The understanding of the righteous predecessors (Salaf)', 'Esoteric allegorical twisting', 'Dreams and visions'],
+    correct: 1,
+    expAr: 'منهج أهل السنة والجماعة هو التلقي من الكتاب والسنة على فهم السلف الصالح من الصحابة ومن تبعهم بإحسان.',
+    expEn: 'Ahl al-Sunnah adhere to the Quran and Sunnah according to the understanding of the Companions and righteous predecessors.'
+  },
+  {
+    id: 'q9',
+    pillar: 'shahada',
+    qAr: 'ما الذي ينافي شرط «الإخلاص» في كلمة التوحيد؟',
+    qEn: 'What contradicts the condition of Sincerity (Ikhlas) in the testimony of Tawhid?',
+    optsAr: ['الجهل', 'الشرك والرياء', 'النسيان', 'السفر'],
+    optsEn: ['Ignorance', 'Shirk and showing off (Riya)', 'Forgetfulness', 'Travel'],
+    correct: 1,
+    expAr: 'الإخلاص هو تصفية العمل من شوائب الشرك والرياء، وضده الشرك بالله.',
+    expEn: 'Sincerity purifies worship from Shirk and showing off; its opposite is associating partners with Allah.'
+  },
+
+  // --- SALAH (9) ---
+  {
+    id: 'q10',
     pillar: 'salah',
     qAr: 'كم عدد ركعات السنن الرواتب المؤكدة في اليوم والليلة؟',
     qEn: 'How many Rak\'ahs are the regular confirmed Sunnah prayers (Rawatib) in a day and night?',
@@ -513,6 +586,7 @@ export const QUIZ_DATA = [
     expEn: 'Narrated in Sahih Muslim: 12 Rak\'ahs (2 before Fajr, 4 before & 2 after Dhuhr, 2 after Maghrib, 2 after Isha).'
   },
   {
+    id: 'q11',
     pillar: 'salah',
     qAr: 'ما حكم من ترك ركناً من أركان الصلاة (كالركوع أو الفاتحة) ساهياً؟',
     qEn: 'What is the ruling if someone forgets a Pillar (Rukn) of Salah like bowing or Al-Fatihah?',
@@ -523,6 +597,7 @@ export const QUIZ_DATA = [
     expEn: 'A Rukn is never dropped even by forgetfulness; it must be performed (or the incomplete Rak\'ah replaced) followed by Sujud al-Sahw.'
   },
   {
+    id: 'q12',
     pillar: 'salah',
     qAr: 'ما أول ما يُحاسب عليه العبد يوم القيامة من عمله؟',
     qEn: 'What is the first deed a servant will be called to account for on the Day of Judgment?',
@@ -533,6 +608,75 @@ export const QUIZ_DATA = [
     expEn: 'The Prophet ﷺ said: "The first thing the servant will be judged for on the Day of Resurrection is Salah."'
   },
   {
+    id: 'q13',
+    pillar: 'salah',
+    qAr: 'ما حكم من نسي واجباً من واجبات الصلاة (كالتشهد الأول) وقام إلى الركعة الثالثة؟',
+    qEn: 'What is the ruling if someone forgets an Obligation (Wajib) like the first Tashahhud and stands up?',
+    optsAr: ['تبطل صلاته فوراً', 'يمضي في صلاته ويجبره بسجود السهو قبل السلام', 'يرجع للجلوس ولو بعد استتمام القيام', 'لا يفعل شيئاً'],
+    optsEn: ['His prayer is immediately invalid', 'He continues and compensates with Sujud al-Sahw before Taslim', 'He must sit back down even after fully standing', 'He does nothing'],
+    correct: 1,
+    expAr: 'الواجب في الصلاة إذا نُسي وتلبّس المصلي بركنٍ بعده يسقط وجوب الرجوع إليه ويُجبر بسجود السهو.',
+    expEn: 'If a Wajib is forgotten and one has moved to the next pillar, one does not return to it and instead performs Sujud al-Sahw.'
+  },
+  {
+    id: 'q14',
+    pillar: 'salah',
+    qAr: 'كم عدد شروط صحة الصلاة التي يجب توفرها قبل الدخول فيها؟',
+    qEn: 'How many conditions of Salah must be fulfilled before starting the prayer?',
+    optsAr: ['خمسة شروط', 'تسعة شروط', 'ثلاثة شروط', 'عشرون شرطاً'],
+    optsEn: ['Five conditions', 'Nine conditions', 'Three conditions', 'Twenty conditions'],
+    correct: 1,
+    expAr: 'شروط الصلاة تسعة: الإسلام، العقل، التمييز، رفع الحدث، إزالة النجاسة، ستر العورة، دخول الوقت، استقبال القبلة، والنية.',
+    expEn: 'The 9 conditions are Islam, sanity, discernment, ritual purity, removing impurity, covering Awrah, time entry, Qiblah, and intention.'
+  },
+  {
+    id: 'q15',
+    pillar: 'salah',
+    qAr: 'ما مجموع ركعات الصلوات الخمس المفروضة في اليوم والليلة؟',
+    qEn: 'What is the total number of Rak\'ahs in the five obligatory daily prayers?',
+    optsAr: ['12 ركعة', '15 ركعة', '17 ركعة', '20 ركعة'],
+    optsEn: ['12 Rak\'ahs', '15 Rak\'ahs', '17 Rak\'ahs', '20 Rak\'ahs'],
+    correct: 2,
+    expAr: 'الفجر (2) + الظهر (4) + العصر (4) + المغرب (3) + العشاء (4) = 17 ركعة.',
+    expEn: 'Fajr (2) + Dhuhr (4) + Asr (4) + Maghrib (3) + Isha (4) = 17 Rak\'ahs.'
+  },
+  {
+    id: 'q16',
+    pillar: 'salah',
+    qAr: 'أين كانت فرضية الصلوات الخمس؟',
+    qEn: 'Where were the five daily prayers ordained?',
+    optsAr: ['في غار حراء', 'في السماء ليلة الإسراء والمعراج', 'في المدينة المنورة', 'في حجة الوداع'],
+    optsEn: ['In Cave Hira', 'In the heavens during al-Isra wal-Mi\'raj', 'In Madinah', 'During the Farewell Hajj'],
+    correct: 1,
+    expAr: 'فُرضت الصلوات الخمس في السماء السابعة ليلة المعراج بلا واسطة، مما يدل على عظيم شأنها.',
+    expEn: 'They were ordained directly in the heavens on the night of Mi\'raj, showing their unmatched status.'
+  },
+  {
+    id: 'q17',
+    pillar: 'salah',
+    qAr: 'ما حكم «الطمأنينة» في الركوع والسجود والاعتدال؟',
+    qEn: 'What is the ruling on tranquility (Tuma\'ninah) in bowing, prostration, and standing?',
+    optsAr: ['سنة مستحبة فقط', 'ركن من أركان الصلاة لا تصح بدونه', 'مباح', 'خاصة بالإمام فقط'],
+    optsEn: ['Merely recommended', 'An essential pillar of Salah without which prayer is invalid', 'Permissible', 'Only for the Imam'],
+    correct: 1,
+    expAr: 'قال النبي ﷺ للمسيء صلاته: «ثم اركع حتى تطمئن راكعاً»، فهي ركن في كل صلاة.',
+    expEn: 'The Prophet ﷺ told the man who prayed poorly: "Then bow until you are at ease in bowing." It is a pillar of Salah.'
+  },
+  {
+    id: 'q18',
+    pillar: 'salah',
+    qAr: 'ما حكم التلفظ بالنية جهراً عند إرادة الدخول في الصلاة؟',
+    qEn: 'What is the ruling on uttering the intention aloud before starting Salah?',
+    optsAr: ['واجب', 'سنة مؤكدة', 'مخالف للسنة لأن محل النية القلب', 'ركن'],
+    optsEn: ['Obligatory', 'Confirmed Sunnah', 'Contrary to the Sunnah because intention is in the heart', 'A pillar'],
+    correct: 2,
+    expAr: 'النية محلها القلب، ولم ينقل عن النبي ﷺ ولا عن أصحابه التلفظ بها قبل الصلاة.',
+    expEn: 'Intention resides in the heart; neither the Prophet ﷺ nor his Companions uttered it aloud.'
+  },
+
+  // --- ZAKAH (9) ---
+  {
+    id: 'q19',
     pillar: 'zakah',
     qAr: 'كم مقدار نصاب الذهب الخالص (عيار 24) الذي تجب فيه الزكاة؟',
     qEn: 'What is the Nisab threshold for pure 24K gold for Zakah?',
@@ -543,6 +687,7 @@ export const QUIZ_DATA = [
     expEn: 'The Nisab of gold is 20 Mithqal (~85g of pure 24K gold), while silver is 595g.'
   },
   {
+    id: 'q20',
     pillar: 'zakah',
     qAr: 'كم عدد مصارف الزكاة المذكورة في آية سورة التوبة (60)؟',
     qEn: 'How many eligible categories of Zakah recipients are mentioned in Surah al-Tawbah (9:60)?',
@@ -553,6 +698,7 @@ export const QUIZ_DATA = [
     expEn: 'They are exclusively eight categories mentioned in Surah al-Tawbah verse 60.'
   },
   {
+    id: 'q21',
     pillar: 'zakah',
     qAr: 'ما النسبة الواجبة في زكاة النقود وعروض التجارة بعد تمام الحول؟',
     qEn: 'What is the Zakah rate on cash and trade inventory after one lunar year?',
@@ -563,6 +709,75 @@ export const QUIZ_DATA = [
     expEn: 'The obligatory rate on cash, gold, silver, and trade goods is 2.5% (1/40).'
   },
   {
+    id: 'q22',
+    pillar: 'zakah',
+    qAr: 'كم نسبة الزكاة في الزروع والثمار التي سُقيت بماء المطر أو الأنهار بلا كلفة؟',
+    qEn: 'What is the Zakah rate on crops watered naturally by rain or rivers without irrigation cost?',
+    optsAr: ['2.5%', '5% (نصف العشر)', '10% (العشر)', '20% (الخمس)'],
+    optsEn: ['2.5%', '5%', '10%', '20%'],
+    correct: 2,
+    expAr: 'قال ﷺ: «فيما سقت السماء والعيون العشر، وفيما سقي بالنضح نصف العشر» (رواه البخاري).',
+    expEn: 'The Prophet ﷺ said: "In what is watered by the sky and springs: one-tenth (10%); in what is irrigated with effort: half of a tenth (5%)."'
+  },
+  {
+    id: 'q23',
+    pillar: 'zakah',
+    qAr: 'متى تجب زكاة الزروع والثمار؟',
+    qEn: 'When does Zakah on agricultural crops become due?',
+    optsAr: ['بعد مرور سنة هجرية كاملة', 'يوم حصادها لقوله تعالى: ﴿وَآتُوا حَقَّهُ يَوْمَ حَصَادِهِ﴾', 'في شهر رمضان فقط', 'عند بيعها بعد عامين'],
+    optsEn: ['After one full lunar year', 'On the day of harvest (Quran 6:141)', 'Only in Ramadan', 'Two years after selling'],
+    correct: 1,
+    expAr: 'لا يُشترط الحول في الزروع والثمار، بل تجب يوم الحصاد إذا بلغت النصاب (5 أوسق).',
+    expEn: 'Hawl is not required for crops; Zakah is due on the day of harvest if it reaches 5 Awsuq.'
+  },
+  {
+    id: 'q24',
+    pillar: 'zakah',
+    qAr: 'متى يُستحب ويُندب إخراج زكاة الفطر في وقتها الأفضل؟',
+    qEn: 'When is the best time to pay Zakat al-Fitr?',
+    optsAr: ['بعد صلاة عيد الفطر', 'قبل صلاة عيد الفطر (ويجوز قبل العيد بيوم أو يومين)', 'في منتصف شوال', 'في ذي الحجة'],
+    optsEn: ['After Eid prayer', 'Before Eid al-Fitr prayer (permissible 1–2 days before Eid)', 'Mid-Shawwal', 'In Dhul-Hijjah'],
+    correct: 1,
+    expAr: 'أمر النبي ﷺ بزكاة الفطر أن تُؤدى قبل خروج الناس إلى الصلاة، ويجوز تقديمها قبل العيد بيوم أو يومين.',
+    expEn: 'The Prophet ﷺ ordered Zakat al-Fitr to be paid before people go out to Eid prayer (and 1–2 days prior is allowed).'
+  },
+  {
+    id: 'q25',
+    pillar: 'zakah',
+    qAr: 'ما مقدار نصاب الفضة في الزكاة؟',
+    qEn: 'What is the Nisab threshold for silver in Zakah?',
+    optsAr: ['85 جراماً', '200 جرام', '595 جراماً', '1000 جرام'],
+    optsEn: ['85 grams', '200 grams', '595 grams', '1000 grams'],
+    correct: 2,
+    expAr: 'نصاب الفضة 5 أواقٍ (200 درهم)، ويعادل نحو 595 جراماً من الفضة الخالصة.',
+    expEn: 'The Nisab of silver is 200 dirhams, equivalent to approximately 595 grams of pure silver.'
+  },
+  {
+    id: 'q26',
+    pillar: 'zakah',
+    qAr: 'هل تجوز الزكاة على الأصول والفروع (كالوالدين والأولاد الذين تلزم نفقتهم)؟',
+    qEn: 'Can obligatory Zakah be given to one\'s parents or dependent children?',
+    optsAr: ['نعم مطلقاً', 'لا تجوز؛ لأن نفقتهم واجبة عليه أصلاً', 'تجوز في رمضان فقط', 'تجوز في زكاة الذهب فقط'],
+    optsEn: ['Yes, always', 'No, because supporting them is already an obligation on the payer', 'Only in Ramadan', 'Only for gold Zakah'],
+    correct: 1,
+    expAr: 'أجمع العلماء على عدم جواز دفع الزكاة لمن تلزمك نفقته كالوالدين والأولاد والزوجة.',
+    expEn: 'Scholars agree Zakah cannot be given to dependents whose maintenance is already obligatory upon the giver.'
+  },
+  {
+    id: 'q27',
+    pillar: 'zakah',
+    qAr: 'بأي تقويم يُحسب «الحول» السنوي في الزكاة؟',
+    qEn: 'Which calendar is used to calculate the annual Hawl (year) for Zakah?',
+    optsAr: ['السنة الميلادية الشمسية', 'السنة الهجرية القمرية', 'السنة المالية للشركات فقط', 'كل 6 أشهر'],
+    optsEn: ['Solar Gregorian year', 'Lunar Hijri year', 'Corporate fiscal year only', 'Every 6 months'],
+    correct: 1,
+    expAr: 'الأحكام الشرعية ومنها حول الزكاة منوطة بالتقويم الهجري القمري.',
+    expEn: 'Islamic rulings, including the Zakah year (Hawl), are based on the lunar Hijri calendar.'
+  },
+
+  // --- SAWM (9) ---
+  {
+    id: 'q28',
     pillar: 'sawm',
     qAr: 'من أكل أو شرب ناسياً وهو صائم في رمضان فما حكم صومه؟',
     qEn: 'What is the ruling for someone who eats or drinks out of forgetfulness while fasting Ramadan?',
@@ -573,6 +788,7 @@ export const QUIZ_DATA = [
     expEn: 'The Prophet ﷺ said: "Whoever forgets while fasting and eats or drinks, let him complete his fast, for it is Allah who fed him and gave him drink."'
   },
   {
+    id: 'q29',
     pillar: 'sawm',
     qAr: 'ما حكم العاجز عن الصيام عجزاً دائماً لكبر سن أو مرض مزمن لا يُرجى برؤه؟',
     qEn: 'What is the ruling for an elderly or chronically ill person permanently unable to fast?',
@@ -583,6 +799,7 @@ export const QUIZ_DATA = [
     expEn: 'Those permanently unable to fast break their fast and feed one poor person per day.'
   },
   {
+    id: 'q30',
     pillar: 'sawm',
     qAr: 'متى يجب تبييت النية لصيام شهر رمضان؟',
     qEn: 'When must the intention (Niyyah) be made for the obligatory fast of Ramadan?',
@@ -593,6 +810,75 @@ export const QUIZ_DATA = [
     expEn: 'The Prophet ﷺ said: "Whoever does not resolve to fast before Fajr, there is no fast for him" (for obligatory fasts).'
   },
   {
+    id: 'q31',
+    pillar: 'sawm',
+    qAr: 'ما السنة في وقت الإفطار عند غروب الشمس؟',
+    qEn: 'What is the Sunnah regarding the timing of Iftar at sunset?',
+    optsAr: ['تأخير الإفطار حتى تشتبك النجوم', 'تعجيل الإفطار بمجرد تحقق غروب الشمس', 'الانتظار بعد الأذان بنصف ساعة', 'الفطر قبل الغروب'],
+    optsEn: ['Delaying until stars appear', 'Hastening Iftar as soon as sunset is verified', 'Waiting 30 minutes after Adhan', 'Breaking fast before sunset'],
+    correct: 1,
+    expAr: 'قال النبي ﷺ: «لا يزال الناس بخير ما عجّلوا الفطر» (متفق عليه).',
+    expEn: 'The Prophet ﷺ said: "People will remain upon goodness as long as they hasten to break the fast."'
+  },
+  {
+    id: 'q32',
+    pillar: 'sawm',
+    qAr: 'ما الدعاء المأثور في ليلة القدر الذي علمه النبي ﷺ لأم المؤمنين عائشة رضي الله عنها؟',
+    qEn: 'What is the Sunnah supplication for Laylat al-Qadr taught to Aishah (may Allah be pleased with her)?',
+    optsAr: ['اللهم إني أسألك الجنة', 'اللهم إنك عفو تحب العفو فاعفُ عني', 'سبحان الله وبحمده', 'ربنا آتنا في الدنيا حسنة'],
+    optsEn: ['O Allah, I ask You for Paradise', 'Allahumma innaka \'Afuwwun tuhibbul-\'afwa fa\'fu \'anni', 'SubhanAllahi wa bihamdihi', 'Rabbana atina fid-dunya hasanah'],
+    correct: 1,
+    expAr: 'أوصى النبي ﷺ عائشة أن تقول في ليلة القدر: «اللهم إنك عفو تحب العفو فاعف عني».',
+    expEn: 'The Prophet ﷺ instructed Aishah to say: "O Allah, You are Pardoning and love to pardon, so pardon me."'
+  },
+  {
+    id: 'q33',
+    pillar: 'sawm',
+    qAr: 'ما حكم من غلبه القيء بغير اختياره وهو صائم؟',
+    qEn: 'What is the ruling if someone vomits involuntarily while fasting?',
+    optsAr: ['يفسد صومه وعليه القضاء', 'صومه صحيح ولا قضاء عليه', 'عليه كفارة', 'يفسد صومه إذا كان نهاراً فقط'],
+    optsEn: ['Fast is broken and must be made up', 'Fast remains valid with no makeup required', 'Expiation is required', 'Broken only if during daytime'],
+    correct: 1,
+    expAr: 'قال ﷺ: «من ذرعه القيء فليس عليه قضاء، ومن استقاء عمداً فليقضِ».',
+    expEn: 'The Prophet ﷺ said: "Whoever is overcome by vomiting does not have to make up the fast; whoever induces it must make it up."'
+  },
+  {
+    id: 'q34',
+    pillar: 'sawm',
+    qAr: 'ما حكم السحور للصائم؟',
+    qEn: 'What is the ruling and virtue of Suhur (pre-dawn meal) for the fasting person?',
+    optsAr: ['واجب يأثم تاركه', 'سنة مباركة يُستحب تأخيرها قبيل الفجر', 'مكروه', 'مباح بلا أجر'],
+    optsEn: ['Obligatory (sinful if skipped)', 'A blessed Sunnah recommended to delay shortly before Fajr', 'Disliked', 'Neutral without reward'],
+    correct: 1,
+    expAr: 'قال ﷺ: «تسحروا فإن في السحور بركة» (متفق عليه)، والسنة تأخيره إلى قبيل الفجر.',
+    expEn: 'The Prophet ﷺ said: "Take Suhur, for in Suhur there is blessing," and delaying it shortly before Fajr is Sunnah.'
+  },
+  {
+    id: 'q35',
+    pillar: 'sawm',
+    qAr: 'ما حكم من جامع زوجته في نهار رمضان عمداً وهو صائم؟',
+    qEn: 'What is the ruling on intentional marital intercourse during the daytime of Ramadan?',
+    optsAr: ['قضاء اليوم فقط', 'فسد صومه وعليه القضاء والكفارة المغلظة', 'استغفار فقط', 'صومه صحيح'],
+    optsEn: ['Makeup of the day only', 'Fast is invalidated; requires makeup plus the major expiation', 'Seeking forgiveness only', 'Fast remains valid'],
+    correct: 1,
+    expAr: 'تجب عليه التوبة والقضاء والكفارة المغلظة: عتق رقبة، فإن لم يجد فصيام شهرين متتابعين، فإن لم يستطع فإطعام ستين مسكيناً.',
+    expEn: 'It requires repentance, making up the day, and major expiation (freeing a slave, else fasting 2 consecutive months, else feeding 60 needy people).'
+  },
+  {
+    id: 'q36',
+    pillar: 'sawm',
+    qAr: 'متى تُتحرى ليلة القدر على الراجح من السنة؟',
+    qEn: 'When is Laylat al-Qadr sought according to the authentic Sunnah?',
+    optsAr: ['في أول ليلة من رمضان', 'في الوتر من العشر الأواخر من رمضان', 'في ليلة النصف من شعبان', 'في ليلة العيد'],
+    optsEn: ['First night of Ramadan', 'In the odd nights of the last ten nights of Ramadan', '15th night of Sha\'ban', 'Night of Eid'],
+    correct: 1,
+    expAr: 'قال ﷺ: «تحروا ليلة القدر في الوتر من العشر الأواخر من رمضان» (رواه البخاري).',
+    expEn: 'The Prophet ﷺ said: "Seek Laylat al-Qadr in the odd nights of the last ten nights of Ramadan" (al-Bukhari).'
+  },
+
+  // --- HAJJ (9) ---
+  {
+    id: 'q37',
     pillar: 'hajj',
     qAr: 'ما الركن الأعظم في الحج الذي قال فيه النبي ﷺ: «الحج عرفة»؟',
     qEn: 'What is the greatest pillar of Hajj about which the Prophet ﷺ said "Hajj is Arafah"?',
@@ -603,6 +889,7 @@ export const QUIZ_DATA = [
     expEn: 'Standing at Arafah is the greatest pillar of Hajj; whoever misses it has missed Hajj.'
   },
   {
+    id: 'q38',
     pillar: 'hajj',
     qAr: 'أي من الآتي ليس من أركان الحج الأربعة بل هو من واجباته؟',
     qEn: 'Which of the following is an Obligation (Wajib) of Hajj rather than one of its four Pillars?',
@@ -613,6 +900,7 @@ export const QUIZ_DATA = [
     expEn: 'The four pillars are Ihram, Arafah, Tawaf al-Ifadah, and Sa\'i; Muzdalifah and stoning are obligations.'
   },
   {
+    id: 'q39',
     pillar: 'hajj',
     qAr: 'ما أفضل أنساك الحج الثلاثة لمن لم يسق الهدي؟',
     qEn: 'Which of the three types of Hajj is best for someone who did not bring a sacrificial animal?',
@@ -621,6 +909,72 @@ export const QUIZ_DATA = [
     correct: 1,
     expAr: 'أفضل الأنساك لمن لم يسق الهدي هو التمتع (أداء العمرة في أشهر الحج ثم التحلل ثم الإحرام بالحج)، كما أمر به النبي ﷺ أصحابه.',
     expEn: 'Tamattu\' (performing Umrah, exiting Ihram, then entering Ihram for Hajj) is the best for those without a Hady animal.'
+  },
+  {
+    id: 'q40',
+    pillar: 'hajj',
+    qAr: 'ما اليوم الذي يُسمى «يوم التروية» ويخرج فيه الحجاج إلى منى؟',
+    qEn: 'Which day is called the Day of Tarwiyah when pilgrims head to Mina?',
+    optsAr: ['السابع من ذي الحجة', 'الثامن من ذي الحجة', 'التاسع من ذي الحجة', 'العاشر من ذي الحجة'],
+    optsEn: ['7th of Dhul-Hijjah', '8th of Dhul-Hijjah', '9th of Dhul-Hijjah', '10th of Dhul-Hijjah'],
+    correct: 1,
+    expAr: 'يوم التروية هو اليوم الثامن من ذي الحجة، يُحرم فيه المتمتع بالحج ويتوجه الحجاج إلى منى.',
+    expEn: 'The 8th of Dhul-Hijjah is Yawm al-Tarwiyah, when pilgrims enter Ihram (for Tamattu\') and head to Mina.'
+  },
+  {
+    id: 'q41',
+    pillar: 'hajj',
+    qAr: 'أي جمرة يرميها الحاج يوم العيد (العاشر من ذي الحجة) فقط؟',
+    qEn: 'Which Jamarah does the pilgrim stone exclusively on the Day of Eid (10th Dhul-Hijjah)?',
+    optsAr: ['الجمرة الصغرى', 'الجمرة الوسطى', 'جمرة العقبة الكبرى', 'الجمرات الثلاث كلها'],
+    optsEn: ['Small Jamarah', 'Middle Jamarah', 'Jamrat al-Aqabah (the Largest)', 'All three Jamarat'],
+    correct: 2,
+    expAr: 'في يوم النحر (10 ذي الحجة) يرمي الحاج جمرة العقبة الكبرى فقط بسبع حصيات، أما الجمرات الثلاث فتُرمى في أيام التشريق.',
+    expEn: 'On the 10th of Dhul-Hijjah, only Jamrat al-Aqabah is stoned with 7 pebbles; all three are stoned on the days of Tashriq.'
+  },
+  {
+    id: 'q42',
+    pillar: 'hajj',
+    qAr: 'ما حكم طواف الوداع عند مغادرة مكة المكرمة بعد انتهاء الحج؟',
+    qEn: 'What is the ruling on the Farewell Tawaf (Tawaf al-Wada\') before leaving Makkah?',
+    optsAr: ['سنة مستحبة فقط', 'واجب من واجبات الحج (ويسقط عن الحائض والنفساء)', 'ركن من أركان الحج', 'مباح'],
+    optsEn: ['Merely recommended', 'An obligation of Hajj (waived for menstruating/post-natal women)', 'A pillar of Hajj', 'Optional'],
+    correct: 1,
+    expAr: 'طواف الوداع واجب عند الجمهور لقوله ﷺ: «لا ينفرن أحد حتى يكون آخر عهده بالبيت»، وخُفف عن الحائض.',
+    expEn: 'Tawaf al-Wada\' is obligatory upon leaving Makkah, though waived for menstruating and post-natal women.'
+  },
+  {
+    id: 'q43',
+    pillar: 'hajj',
+    qAr: 'كم مرة يجب الحج في العمر على المسلم المستطيع؟',
+    qEn: 'How many times is Hajj obligatory in a lifetime for a capable Muslim?',
+    optsAr: ['مرة كل خمس سنوات', 'مرة واحدة في العمر وما زاد فهو تطوع', 'ثلاث مرات', 'كل سنة'],
+    optsEn: ['Once every 5 years', 'Once in a lifetime; anything more is voluntary', 'Three times', 'Every year'],
+    correct: 1,
+    expAr: 'قال النبي ﷺ: «الحج مرة، فمن زاد فهو تطوع» (رواه أحمد وأبو داود).',
+    expEn: 'The Prophet ﷺ said: "Hajj is once; whoever does more, it is voluntary."'
+  },
+  {
+    id: 'q44',
+    pillar: 'hajj',
+    qAr: 'ما معنى «التلبية» التي يرفع بها المحرم صوته في الحج والعمرة؟',
+    qEn: 'What is the wording of the Talbiyah recited aloud during Hajj and Umrah?',
+    optsAr: ['الله أكبر كبيراً', 'لبيك اللهم لبيك، لبيك لا شريك لك لبيك...', 'سبحان الله والحمد لله', 'لا حول ولا قوة إلا بالله'],
+    optsEn: ['Allahu Akbar Kabira', 'Labbayka Allahumma labbayk, labbayka la sharika laka labbayk...', 'SubhanAllah walhamdulillah', 'La hawla wa la quwwata illa billah'],
+    correct: 1,
+    expAr: 'التلبية شعار التوحيد في الحج: «لبيك اللهم لبيك، لبيك لا شريك لك لبيك، إن الحمد والنعمة لك والملك، لا شريك لك».',
+    expEn: 'The Talbiyah is the anthem of Tawhid in Hajj: "Labbayka Allahumma labbayk..."'
+  },
+  {
+    id: 'q45',
+    pillar: 'hajj',
+    qAr: 'ما الفرق بين ترك «الركن» وترك «الواجب» في الحج؟',
+    qEn: 'What is the difference between omitting a Pillar (Rukn) vs. an Obligation (Wajib) in Hajj?',
+    optsAr: ['لا فرق بينهما', 'الركن لا يصح الحج بدونه، والواجب يُجبر بدم', 'كلاهما يُجبر بدم', 'كلاهما يُبطل الحج'],
+    optsEn: ['No difference', 'Hajj is invalid without a Pillar; an Obligation is compensated by a sacrificial animal (Dam)', 'Both are compensated by Dam', 'Both invalidate Hajj'],
+    correct: 1,
+    expAr: 'الركن (كالوقوف بعرفة وطواف الإفاضة) لا يصح الحج بدونه ولا يُجبر بدم، أما الواجب (كالمبيت بمزدلفة ورمي الجمار) فيُجبر بدم إذا تُرك.',
+    expEn: 'A Pillar is essential for validity and cannot be compensated by sacrifice; an Obligation is compensated by Dam if omitted.'
   }
 ];
 
